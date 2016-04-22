@@ -30,9 +30,9 @@ before_script:
   - printf "\n" | pecl install imagick
 script:
   # https://graysonkoonce.com/getting-the-current-branch-name-during-a-pull-request-in-travis-ci/
-  - export PR=https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST
-  - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo `curl -s $PR | jq -r .head.ref`; fi)
-  - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+  #- export PR=https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST
+  #- export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo `curl -s $PR | jq -r .head.ref`; fi)
+  #- echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
   - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
   - drush site-install testing --db-url=$DB_URL --site-name=my-site --yes
   - drush dl drulenium-7.x-2.x-dev -y
