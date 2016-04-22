@@ -1,0 +1,59 @@
+# Travis CI configuration
+
+language: php
+php:
+  - "5.4"
+services: mysql
+addons:
+  firefox: "28.0"
+# sudo to install imagemagick
+sudo: true
+env:
+  global:
+    - DATABASE='drupal_pantheon_travis'
+    - DB_USERNAME='root'
+    - DB_ENCODE='utf8'
+before_install:
+  - mysql -e "create database IF NOT EXISTS drupal_test;" -uroot
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - "wget http://selenium.googlecode.com/files/selenium-server-standalone-2.39.0.jar"
+  - "java -jar selenium-server-standalone-2.39.0.jar > /tmp/selenium.log 2> /tmp/selenium.error &"
+install:
+  - composer global require drush/drush:6.*
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+before_script:
+  #- export DISPLAY=:99.0
+  #- sh -e /etc/init.d/xvfb start
+  - sudo apt-get update -q
+  - sudo apt-get install -y imagemagick
+  - printf "\n" | pecl install imagick
+script:
+  # https://graysonkoonce.com/getting-the-current-branch-name-during-a-pull-request-in-travis-ci/
+  - export PR=https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST
+  - export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo `curl -s $PR | jq -r .head.ref`; fi)
+  - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+  - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
+  - drush site-install testing --db-url=$DB_URL --site-name=my-site --yes
+  - drush dl drulenium-7.x-2.x-dev -y
+  - drush en drulenium -y
+  - drush en drulenium_tests -y
+  - drush en libraries -y
+  - drush vr-download-webdriver # To download selenium webdriver library
+  - drush vset --yes drulenium_vr_config_server_opt 'local'
+  - drush vset --yes drulenium_vr_config_image_server_opt 'local'
+  - drush vset --yes drulenium_vr_release_imagemagick_path '/usr/bin'
+  - drush vset --yes drulenium_vr_release_notify_email 'info@technikh.com'
+  - drush vrc http://test-drulenium-travis.pantheonsite.io/ --pages=search/node/drupal
+  # If $BRANCH = master, use dev environment
+  #- drush vrc http://$BRANCH-drulenium-travis.pantheonsite.io/ --preset_category=Regression
+  - drush vrc http://$BRANCH-drulenium-travis.pantheonsite.io/ --pages=search/node/drupal
+  - drush vr-diff
+  - drush dl drulenium_imgur-7.x-1.x-dev
+  - drush en drulenium_imgur -y
+  - drush vset --yes drulenium_imgur_client_id $IMGUR_CLIENT_ID
+  - drush vset --yes drulenium_imgur_client_secret $IMGUR_CLIENT_SECRET
+  - drush vr-diff-upload
+branches:
+    only:
+      - master
