@@ -56,7 +56,7 @@ script:
   - drush en drulenium_imgur -y
   - drush vset --yes drulenium_imgur_client_id $IMGUR_CLIENT_ID
   - drush vset --yes drulenium_imgur_client_secret $IMGUR_CLIENT_SECRET
-  - drush vr-diff-upload
+  - drush vr-diff-upload --preset_category=travis-regression
 branches:
     only:
       - master
