@@ -44,11 +44,14 @@ script:
   - drush vset --yes drulenium_vr_config_image_server_opt 'local'
   - drush vset --yes drulenium_vr_release_imagemagick_path '/usr/bin'
   - drush vset --yes drulenium_vr_release_notify_email 'info@technikh.com'
-  - drush vrc http://test-drulenium-travis.pantheonsite.io/ --pages=search/node/drupal
-  # If $BRANCH = master, use dev environment
-  #- drush vrc http://$BRANCH-drulenium-travis.pantheonsite.io/ --preset_category=Regression
-  - drush vrc http://$BRANCH-drulenium-travis.pantheonsite.io/ --pages=search/node/drupal
-  - drush vr-diff
+  # Test as admin user
+  - drush vset --yes drulenium_vr_release_user_name 'admin'
+  - drush vset --yes drulenium_vr_release_user_pass $DRUPAL8_ADMIN_PASS
+
+  - drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
+  - drush vrc http://8-1-x-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
+  - drush vrc http://8-1-x-archive-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
+  - drush vr-diff --preset_category=travis-regression
   - drush dl drulenium_imgur-7.x-1.x-dev
   - drush en drulenium_imgur -y
   - drush vset --yes drulenium_imgur_client_id $IMGUR_CLIENT_ID
