@@ -48,10 +48,11 @@ script:
   - drush vset --yes drulenium_vr_release_user_name 'admin'
   - drush vset --yes drulenium_vr_release_user_pass $DRUPAL8_ADMIN_PASS
 
-# - drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
+  - drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
   - drush vr-test-import http://drulenium.org/api/v1/test-case/31915268-bf72-4325-94d4-081d9cfc1bdb travis-regression
-  - drush vrc http://8-1-x-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
-  - drush vrc http://8-1-x-arch-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
+  # http://8-1-x-drulenium-drupal8.pantheonsite.io/ $TRAVIS_BRANCH = 8-1-x
+  - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
+  - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
   - drush vr-diff --preset_category=travis-regression
   - drush dl drulenium_imgur-7.x-1.x-dev
   - drush en drulenium_imgur -y
@@ -59,5 +60,5 @@ script:
   - drush vset --yes drulenium_imgur_client_secret $IMGUR_CLIENT_SECRET
   - drush vr-diff-upload --preset_category=travis-regression
 branches:
-    only:
+    except:
       - master
