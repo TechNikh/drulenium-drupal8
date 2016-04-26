@@ -3,3 +3,4 @@ initial commit
 second commit
 $RNAME
 $RNAME
+5b67fe0 Issue #2456477 by Berdir, dawehner, heddn, pguillard: Convert deprecated \Drupal\simpletest\KernelTestBase tests to KernelTestBaseNG d14beab Issue #2710103 by Pashupathi Nath Gajawada: Cleanup phpunit.xml.dist 6ae4278 Issue #2678822 by Damien
