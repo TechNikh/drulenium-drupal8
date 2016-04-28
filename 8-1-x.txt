@@ -9,3 +9,4 @@ $RNAME
 2acd478 Issue #2702609 by Wim Leers, Berdir, Fabianx: Disable placeholdering (and BigPipe) on unsafe requests to help find forms as fast as possible (to allow EnforcedResponses to work) 17dfe30 Issue #2572731 by attiks, andypost: Fix 'Drupal.Formatti
 2acd478 Issue #2702609 by Wim Leers, Berdir, Fabianx: Disable placeholdering (and BigPipe) on unsafe requests to help find forms as fast as possible (to allow EnforcedResponses to work) 17dfe30 Issue #2572731 by attiks, andypost: Fix 'Drupal.Formatti
 94a968e Issue #2572307 by vprocessor, attiks, andriyun, alexpott, pfrenssen: Fix 'Generic.PHP.UpperCaseConstant' coding standard
+2d97670 Issue #2707261 by alexpott, jhodgdon: Calling moduleInvokeAll in Help block is wrong
