@@ -8,3 +8,4 @@ $RNAME
 5b67fe0 Issue #2456477 by Berdir, dawehner, heddn, pguillard: Convert deprecated \Drupal\simpletest\KernelTestBase tests to KernelTestBaseNG d14beab Issue #2710103 by Pashupathi Nath Gajawada: Cleanup phpunit.xml.dist 6ae4278 Issue #2678822 by Damien
 2acd478 Issue #2702609 by Wim Leers, Berdir, Fabianx: Disable placeholdering (and BigPipe) on unsafe requests to help find forms as fast as possible (to allow EnforcedResponses to work) 17dfe30 Issue #2572731 by attiks, andypost: Fix 'Drupal.Formatti
 2acd478 Issue #2702609 by Wim Leers, Berdir, Fabianx: Disable placeholdering (and BigPipe) on unsafe requests to help find forms as fast as possible (to allow EnforcedResponses to work) 17dfe30 Issue #2572731 by attiks, andypost: Fix 'Drupal.Formatti
+94a968e Issue #2572307 by vprocessor, attiks, andriyun, alexpott, pfrenssen: Fix 'Generic.PHP.UpperCaseConstant' coding standard
