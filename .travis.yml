@@ -33,6 +33,8 @@ script:
   #- export PR=https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST
   #- export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo `curl -s $PR | jq -r .head.ref`; fi)
   #- echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+  - "export TRAVIS_COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
+  - echo "$TRAVIS_COMMIT_MSG"
   - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
   - drush site-install testing --db-url=$DB_URL --site-name=my-site --yes
   - drush dl drulenium-7.x-2.x-dev -y
@@ -51,8 +53,8 @@ script:
   - drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
   - drush vr-test-import http://drulenium.org/api/v1/test-case/31915268-bf72-4325-94d4-081d9cfc1bdb travis-regression
   # http://8-1-x-drulenium-drupal8.pantheonsite.io/ $TRAVIS_BRANCH = 8-1-x
-  - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
-  - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ --preset_category=travis-regression
+  - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ $TRAVIS_COMMIT_MSG --preset_category=travis-regression
+  - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ $TRAVIS_COMMIT_MSG --preset_category=travis-regression
   - drush vr-diff --preset_category=travis-regression
   - drush dl drulenium_imgur-7.x-1.x-dev
   - drush en drulenium_imgur -y
