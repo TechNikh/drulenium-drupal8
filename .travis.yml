@@ -33,6 +33,9 @@ script:
   #- export PR=https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST
   #- export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo `curl -s $PR | jq -r .head.ref`; fi)
   #- echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+  
+  # https://github.com/travis-ci/travis-ci/issues/965
+  # https://github.com/twbs/bootstrap/blob/e3f4072a9e1f1163c5b7b6a52d9b2632569f90fb/.travis.yml#L9
   - "export TRAVIS_COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
   - echo "$TRAVIS_COMMIT_MSG"
   - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
