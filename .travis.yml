@@ -34,6 +34,9 @@ script:
   #- export PR=https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST
   #- export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo `curl -s $PR | jq -r .head.ref`; fi)
   #- echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+  
+  # https://github.com/travis-ci/travis-ci/issues/965
+  # https://github.com/twbs/bootstrap/blob/e3f4072a9e1f1163c5b7b6a52d9b2632569f90fb/.travis.yml#L9
   - "export TRAVIS_COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
   - echo "$TRAVIS_COMMIT_MSG"
   - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
@@ -52,10 +55,12 @@ script:
   - drush vset --yes drulenium_vr_release_user_pass $DRUPAL8_ADMIN_PASS
 
   - drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
-  - drush vr-test-import http://drulenium.org/api/v1/test-case/31915268-bf72-4325-94d4-081d9cfc1bdb travis-regression
+  - drush vr-test-import http://drulenium.org/api/v1/test-case/c2fdabce-77a1-4d34-8895-4317a62517c0 travis-regression
+  - drush vr-test-import http://drulenium.org/api/v1/test-case/e883f1d6-e949-4e54-8576-2a5dad8fb4b1 travis-regression
+  - drush vr-test-import http://drulenium.org/api/v1/test-case/9e18577d-802a-4f71-ba4b-6825ba7e129d travis-regression
   # http://8-1-x-drulenium-drupal8.pantheonsite.io/ $TRAVIS_BRANCH = 8-1-x
-  - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ $TRAVIS_COMMIT_MSG --preset_category=travis-regression
-  - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ $TRAVIS_COMMIT_MSG --preset_category=travis-regression
+  - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
+  - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
   - drush vr-diff --preset_category=travis-regression
   - drush dl drulenium_imgur-7.x-1.x-dev
   - drush en drulenium_imgur -y
