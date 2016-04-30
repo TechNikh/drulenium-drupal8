@@ -1,0 +1,1 @@
+3eeaeb6 Issue #2707371 by Mile23: Fix several errors in the 'Drupal.Commenting.DocComment' coding standard 4e658ef Issue #2667588 by dimaro, malavya, johnrosswvsu: Document that a module's classes are not available during hook_requirements() 'install
