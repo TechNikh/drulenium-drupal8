@@ -13,6 +13,7 @@ env:
     - DATABASE='drupal_pantheon_travis'
     - DB_USERNAME='root'
     - DB_ENCODE='utf8'
+    - PROJECT_UUID='d8beb0ad-3c61-4631-aca8-8ee910b468c9'
 before_install:
   - mysql -e "create database IF NOT EXISTS drupal_test;" -uroot
   - "export DISPLAY=:99.0"
@@ -65,7 +66,7 @@ script:
   - drush en drulenium_imgur -y
   - drush vset --yes drulenium_imgur_client_id $IMGUR_CLIENT_ID
   - drush vset --yes drulenium_imgur_client_secret $IMGUR_CLIENT_SECRET
-  - drush vr-diff-upload --preset_category=travis-regression
+  - drush vr-diff-upload --preset_category=travis-regression --project_id=$PROJECT_UUID
 branches:
     except:
       - master
