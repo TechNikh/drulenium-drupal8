@@ -1,1 +1,2 @@
 e8322e4 Issue #2647916 by Lendude, dawehner: Views ajax modals stop working in certain scenarios 82f9f8c Issue #2407853 by alexpott, aerozeppelin, Berdir, vladan.me, dawehner: TaxonomyIndexTid Views plugin stores selected terms with the ID instead of
+e8322e4 Issue #2647916 by Lendude, dawehner: Views ajax modals stop working in certain scenarios 82f9f8c Issue #2407853 by alexpott, aerozeppelin, Berdir, vladan.me, dawehner: TaxonomyIndexTid Views plugin stores selected terms with the ID instead of
