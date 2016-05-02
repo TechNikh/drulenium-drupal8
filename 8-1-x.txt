@@ -1,1 +1,2 @@
 Initial commit
+452667c Issue #2647916 by Lendude, dawehner: Views ajax modals stop working in certain scenarios a61d36e Issue #2407853 by alexpott, aerozeppelin, Berdir, vladan.me, dawehner: TaxonomyIndexTid Views plugin stores selected terms with the ID instead of
