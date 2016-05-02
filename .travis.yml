@@ -13,6 +13,7 @@ env:
     - DATABASE='drupal_pantheon_travis'
     - DB_USERNAME='root'
     - DB_ENCODE='utf8'
+    - PROJECT_UUID='7abf5430-7a80-46d1-8adc-e56e6ecb8947'
 before_install:
   - mysql -e "create database IF NOT EXISTS drupal_test;" -uroot
   - "export DISPLAY=:99.0"
@@ -53,10 +54,17 @@ script:
   - drush vset --yes drulenium_vr_release_user_name 'admin'
   - drush vset --yes drulenium_vr_release_user_pass $DRUPAL8_ADMIN_PASS
 
-  - drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
-  - drush vr-test-import http://drulenium.org/api/v1/test-case/c2fdabce-77a1-4d34-8895-4317a62517c0 travis-regression
-  - drush vr-test-import http://drulenium.org/api/v1/test-case/e883f1d6-e949-4e54-8576-2a5dad8fb4b1 travis-regression
-  - drush vr-test-import http://drulenium.org/api/v1/test-case/9e18577d-802a-4f71-ba4b-6825ba7e129d travis-regression
+  # http://drulenium.org/api/v1/project/7abf5430-7a80-46d1-8adc-e56e6ecb8947
+  - export TEST_PAGES=$(echo `curl -s http://drulenium.org/api/v1/project/$PROJECT_UUID | jq -r '.tests | join(",")'`)
+  - echo "$TEST_PAGES";
+  - IFS=',' read -ra ADDR <<< "$TEST_PAGES"
+  - for i in "${ADDR[@]}"; do
+    - drush vr-test-import $i travis-regression
+  - done
+  #- drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
+  #- drush vr-test-import http://drulenium.org/api/v1/test-case/c2fdabce-77a1-4d34-8895-4317a62517c0 travis-regression
+  #- drush vr-test-import http://drulenium.org/api/v1/test-case/e883f1d6-e949-4e54-8576-2a5dad8fb4b1 travis-regression
+  #- drush vr-test-import http://drulenium.org/api/v1/test-case/9e18577d-802a-4f71-ba4b-6825ba7e129d travis-regression
   # http://8-1-x-drulenium-drupal8.pantheonsite.io/ $TRAVIS_BRANCH = 8-1-x
   - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
   - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
