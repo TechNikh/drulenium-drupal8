@@ -1,3 +1,4 @@
 Initial commit
 
 ef39eed Issue #2613178 by mikeryan, heddn: default_value: null in static map skips empty rows
+ef39eed Issue #2613178 by mikeryan, heddn: default_value: null in static map skips empty rows
