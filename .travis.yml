@@ -13,7 +13,7 @@ env:
     - DATABASE='drupal_pantheon_travis'
     - DB_USERNAME='root'
     - DB_ENCODE='utf8'
-    - PROJECT_UUID='7abf5430-7a80-46d1-8adc-e56e6ecb8947'
+    - PROJECT_UUID='d8beb0ad-3c61-4631-aca8-8ee910b468c9'
 before_install:
   - mysql -e "create database IF NOT EXISTS drupal_test;" -uroot
   - "export DISPLAY=:99.0"
