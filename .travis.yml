@@ -58,9 +58,7 @@ script:
   - export TEST_PAGES=$(echo `curl -s http://drulenium.org/api/v1/project/$PROJECT_UUID | jq -r '.tests | join(",")'`)
   - echo "$TEST_PAGES";
   - IFS=',' read -ra ADDR <<< "$TEST_PAGES"
-  - for i in "${ADDR[@]}"; do
-    - drush vr-test-import $i travis-regression
-  - done
+  - for i in "${ADDR[@]}"; do drush vr-test-import $i travis-regression; done
   #- drush vr-test-import http://drulenium.org/api/v1/test-case/92275f91-80fc-4bca-a370-6105822fe088 travis-regression
   #- drush vr-test-import http://drulenium.org/api/v1/test-case/c2fdabce-77a1-4d34-8895-4317a62517c0 travis-regression
   #- drush vr-test-import http://drulenium.org/api/v1/test-case/e883f1d6-e949-4e54-8576-2a5dad8fb4b1 travis-regression
