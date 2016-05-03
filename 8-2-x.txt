@@ -2,3 +2,4 @@ Initial commit
 
 ef39eed Issue #2613178 by mikeryan, heddn: default_value: null in static map skips empty rows
 ef39eed Issue #2613178 by mikeryan, heddn: default_value: null in static map skips empty rows
+b953606 Issue #2717401 by Boobaa: Link with in-page fragment only is rendered improperly 79f17dc Issue #2696353 by mpdonadio, dpovshed: Bad dates in Select List widget throw an exception
