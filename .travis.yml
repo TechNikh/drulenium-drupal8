@@ -64,8 +64,8 @@ script:
   #- drush vr-test-import http://drulenium.org/api/v1/test-case/e883f1d6-e949-4e54-8576-2a5dad8fb4b1 travis-regression
   #- drush vr-test-import http://drulenium.org/api/v1/test-case/9e18577d-802a-4f71-ba4b-6825ba7e129d travis-regression
   # http://8-1-x-drulenium-drupal8.pantheonsite.io/ $TRAVIS_BRANCH = 8-1-x
-  - drush vrc http://$TRAVIS_BRANCH-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
-  - drush vrc http://$TRAVIS_BRANCH-arch-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
+  - drush vrc http://8-2-x-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
+  - drush vrc http://8-2-x-arch-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
   - drush vr-diff --preset_category=travis-regression
   - drush dl drulenium_imgur-7.x-1.x-dev
   - drush en drulenium_imgur -y
