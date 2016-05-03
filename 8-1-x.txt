@@ -1,4 +1,2 @@
 Initial commit
 452667c Issue #2647916 by Lendude, dawehner: Views ajax modals stop working in certain scenarios a61d36e Issue #2407853 by alexpott, aerozeppelin, Berdir, vladan.me, dawehner: TaxonomyIndexTid Views plugin stores selected terms with the ID instead of
-4149ee4 Issue #2613178 by mikeryan, heddn: default_value: null in static map skips empty rows
-faccd21 Issue #2671344 by jwilson3: Better documentation for suspicious encoded string in dblog tests 93447ea Issue #2716991 by mpdonadio: Incorrect ISO datetime attribute for date-only fields w/ default formatter 6b947a6 Issue #2717401 by Boobaa: Li
