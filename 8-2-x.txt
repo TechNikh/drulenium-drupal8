@@ -5,3 +5,4 @@ ef39eed Issue #2613178 by mikeryan, heddn: default_value: null in static map ski
 b953606 Issue #2717401 by Boobaa: Link with in-page fragment only is rendered improperly 79f17dc Issue #2696353 by mpdonadio, dpovshed: Bad dates in Select List widget throw an exception
 395cb8b Issue #2671344 by jwilson3: Better documentation for suspicious encoded string in dblog tests 53e541d Issue #2716991 by mpdonadio: Incorrect ISO datetime attribute for date-only fields w/ default formatter
 0d9f058 Issue #2620212 by aaronbauman: "Use a relative path" is not an accurate instruction for url alias
+0dd68ab Issue #2682723 by thpoul, jagjitsingh_drupal, avinashm, maggo: Allow ckeditor_stylesheets to refer to external URL, for e.g. webfonts f8fd764 Issue #2705433 by timmillwood: Node should implement RevisionLogInterface
