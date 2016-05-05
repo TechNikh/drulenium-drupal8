@@ -10,3 +10,4 @@ b953606 Issue #2717401 by Boobaa: Link with in-page fragment only is rendered im
 44f8f8f Issue #2712405 by leolando.tan, jhodgdon: more detail needed for hook_theme() 'variables' property 0ceb441 Issue #2700335 by er.pushpinderrana, elakiyasamuel, malavya, therealssj, joachim, jhodgdon: hook_entity_update() and friends should doc
 e46929c Issue #2717723 by gargsuchi: NodeSearch::__construct() has an undocumented parameter ($renderer)
 a239719 Issue #2702455 by pfrenssen: Remove unused property $entityManager d5d0d6c Issue #2572777 by andypost, alexpott, attiks, andriyun: Fix 'Squiz.Strings.ConcatenationSpacing' coding standard e0c2d96 Issue #2714585 by neclimdul: Avoid definition 
+524dc28 Issue #2715965 by alexpott: Fix 'Drupal.Commenting.FunctionComment.IncorrectParamVarName' coding standard 70f5886 Issue #2716685 by Mile23: Part 2: Fix several errors in the 'Drupal.Commenting.DocComment' coding standard c26745d Issue #270675
