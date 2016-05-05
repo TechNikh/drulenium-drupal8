@@ -12,3 +12,4 @@ e46929c Issue #2717723 by gargsuchi: NodeSearch::__construct() has an undocument
 a239719 Issue #2702455 by pfrenssen: Remove unused property $entityManager d5d0d6c Issue #2572777 by andypost, alexpott, attiks, andriyun: Fix 'Squiz.Strings.ConcatenationSpacing' coding standard e0c2d96 Issue #2714585 by neclimdul: Avoid definition 
 524dc28 Issue #2715965 by alexpott: Fix 'Drupal.Commenting.FunctionComment.IncorrectParamVarName' coding standard 70f5886 Issue #2716685 by Mile23: Part 2: Fix several errors in the 'Drupal.Commenting.DocComment' coding standard c26745d Issue #270675
 524dc28 Issue #2715965 by alexpott: Fix 'Drupal.Commenting.FunctionComment.IncorrectParamVarName' coding standard 70f5886 Issue #2716685 by Mile23: Part 2: Fix several errors in the 'Drupal.Commenting.DocComment' coding standard c26745d Issue #270675
+0e2962c Issue #2489382 by Bojhan, yoroy: Reduce duplication from label to description in pager options
