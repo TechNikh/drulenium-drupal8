@@ -8,3 +8,4 @@ b953606 Issue #2717401 by Boobaa: Link with in-page fragment only is rendered im
 0dd68ab Issue #2682723 by thpoul, jagjitsingh_drupal, avinashm, maggo: Allow ckeditor_stylesheets to refer to external URL, for e.g. webfonts f8fd764 Issue #2705433 by timmillwood: Node should implement RevisionLogInterface
 2be39c7 Issue #2718583 by alexpott: Remove deprecated usages of Node::setRevisionAuthorId() and Node::getRevisionAuthor() a39876b Issue #2693725 by chx, alexpott: Add <nolink> to allow for non-link links ba8e8b2 Issue #2648562 by gapple, neclimdul: S
 44f8f8f Issue #2712405 by leolando.tan, jhodgdon: more detail needed for hook_theme() 'variables' property 0ceb441 Issue #2700335 by er.pushpinderrana, elakiyasamuel, malavya, therealssj, joachim, jhodgdon: hook_entity_update() and friends should doc
+e46929c Issue #2717723 by gargsuchi: NodeSearch::__construct() has an undocumented parameter ($renderer)
