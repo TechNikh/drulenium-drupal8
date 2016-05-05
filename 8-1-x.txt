@@ -4,3 +4,4 @@ Initial commit
 11b897f Issue #2664880 by vasi, dawehner, clemens.tolboom: DataEntityRow doesn't respect translations cdb3bc2 Issue #2700335 by er.pushpinderrana, elakiyasamuel, malavya, therealssj, joachim, jhodgdon: hook_entity_update() and friends should document
 ba83d07 Issue #2712405 by leolando.tan, jhodgdon: more detail needed for hook_theme() 'variables' property
 23a6ea9 Issue #2717723 by gargsuchi: NodeSearch::__construct() has an undocumented parameter ($renderer)
+6a20b3a Issue #2714585 by neclimdul: Avoid definition constants in SearchMatchTest a6efc8c Issue #2572693 by Mile23, andriyun, andypost, attiks: Fix 'Drupal.ControlStructures.ControlSignature' coding standard
