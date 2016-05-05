@@ -5,3 +5,4 @@ Initial commit
 ba83d07 Issue #2712405 by leolando.tan, jhodgdon: more detail needed for hook_theme() 'variables' property
 23a6ea9 Issue #2717723 by gargsuchi: NodeSearch::__construct() has an undocumented parameter ($renderer)
 6a20b3a Issue #2714585 by neclimdul: Avoid definition constants in SearchMatchTest a6efc8c Issue #2572693 by Mile23, andriyun, andypost, attiks: Fix 'Drupal.ControlStructures.ControlSignature' coding standard
+4aceac1 Issue #2715965 by alexpott: Fix 'Drupal.Commenting.FunctionComment.IncorrectParamVarName' coding standard 1d7b860 Issue #2716685 by Mile23: Part 2: Fix several errors in the 'Drupal.Commenting.DocComment' coding standard 7de3512 Issue #270675
