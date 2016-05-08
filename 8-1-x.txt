@@ -14,3 +14,4 @@ ba9610a Issue #2708185 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' cod
 92187c5 Issue #2572619 by attiks, andypost, pfrenssen, vprocessor, tatarbj, andriyun, alexpott: Fix 'Drupal.Classes.ClassDeclaration' coding standard e598c06 Issue #2378617 by jhedstrom, dagmar, eosrei, mgifford: Add test for Log Details links
 774c01b Issue #2718697 by damiankloip, dawehner: EntityAutocomplete element cannot handle GET input values f4a1d0c Issue #2628656 by thpoul, Matt_five, aerozeppelin, Wim Leers: Max dimensions do not apply to Editor Inline image
 81586a6 Issue #2721283 by alexpott: Fix Drupal.Commenting.FunctionComment.$InReturnType e898c1f Issue #2660528 by swentel, david_garcia: File entity completely broken if the underlying file is gone
+8789530 Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to @throws
