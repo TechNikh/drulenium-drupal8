@@ -22,3 +22,4 @@ a239719 Issue #2702455 by pfrenssen: Remove unused property $entityManager d5d0d
 e65accd Issue #2628656 by thpoul, Matt_five, aerozeppelin, Wim Leers: Max dimensions do not apply to Editor Inline image
 55e2442 Issue #2721283 by alexpott: Fix Drupal.Commenting.FunctionComment.$InReturnType 8ae898a Issue #2660528 by swentel, david_garcia: File entity completely broken if the underlying file is gone
 f324b3e Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to @throws
+2e5da97 Issue #2720891 by jan.stoeckler: Replace ContainerAware with ContainerAwareTrait
