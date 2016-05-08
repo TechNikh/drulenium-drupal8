@@ -15,3 +15,4 @@ a239719 Issue #2702455 by pfrenssen: Remove unused property $entityManager d5d0d
 0e2962c Issue #2489382 by Bojhan, yoroy: Reduce duplication from label to description in pager options
 331cff9 Issue #2631362 by Mile23, hussainweb: Inject DRUPAL_ROOT into DrupalKernel 0b1a646 Issue #2714375 by kiamlaluno, malavya: hook_form_alter() implementations are still commented with a reference to a form builder that doesn't exist anymore c36d
 6347dec Issue #2720803 by Eric_A: Missing composer.json file in \Drupal\Component\FileSystem 94c628a Issue #2572633 by vprocessor, andypost, attiks, andriyun: Fix 'Drupal.Commenting.ClassComment' coding standard
+133c212 Issue #2719695 by alexpott, Mile23: Fix 'Drupal.Classes.ClassDeclaration.CloseBraceAfterBody' coding standard 95ed8ce Issue #2704457 by thtas, mpdonadio: Fix DrupalDateTime::diff() 6347dec Issue #2720803 by Eric_A: Missing composer.json file 
