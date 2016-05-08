@@ -20,3 +20,4 @@ a239719 Issue #2702455 by pfrenssen: Remove unused property $entityManager d5d0d
 49e2b0e Issue #2378617 by jhedstrom, dagmar, eosrei, mgifford: Add test for Log Details links b5969b6 Issue #2708185 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to spacing and styling 56ebb39 Issue #2630578 
 7c55349 Issue #2689253 by penyaskito: PathItem pid property should be an integer 677116e Issue #2718697 by damiankloip, dawehner: EntityAutocomplete element cannot handle GET input values 853202a Issue #2572619 by attiks, andypost, pfrenssen, vproces
 e65accd Issue #2628656 by thpoul, Matt_five, aerozeppelin, Wim Leers: Max dimensions do not apply to Editor Inline image
+55e2442 Issue #2721283 by alexpott: Fix Drupal.Commenting.FunctionComment.$InReturnType 8ae898a Issue #2660528 by swentel, david_garcia: File entity completely broken if the underlying file is gone
