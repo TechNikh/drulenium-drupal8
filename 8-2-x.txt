@@ -23,3 +23,4 @@ e65accd Issue #2628656 by thpoul, Matt_five, aerozeppelin, Wim Leers: Max dimens
 55e2442 Issue #2721283 by alexpott: Fix Drupal.Commenting.FunctionComment.$InReturnType 8ae898a Issue #2660528 by swentel, david_garcia: File entity completely broken if the underlying file is gone
 f324b3e Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to @throws
 2e5da97 Issue #2720891 by jan.stoeckler: Replace ContainerAware with ContainerAwareTrait
+5efda3c Issue #2380293 by dawehner, willzyx, jibran, mpdonadio, alexpott, damiankloip, cilefen, Berdir: Properly inject services into ModuleInstaller d7b430a Issue #2707255 by timmillwood, dawehner, amateescu, Berdir: All content entities should inhe
