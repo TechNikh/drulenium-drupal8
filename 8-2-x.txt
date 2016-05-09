@@ -26,3 +26,4 @@ f324b3e Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' cod
 5efda3c Issue #2380293 by dawehner, willzyx, jibran, mpdonadio, alexpott, damiankloip, cilefen, Berdir: Properly inject services into ModuleInstaller d7b430a Issue #2707255 by timmillwood, dawehner, amateescu, Berdir: All content entities should inhe
 9fc74f7 Issue #2721359 by alexpott: Fix tiny regression in coding standards in core/tests/Drupal/Tests/Core/DependencyInjection/UpdateDependenciesTraitTest.php
 9720aec Issue #2721139 by klausi, dawehner: Replace deprecated files ParameterBag usage
+84258cb Issue #2680227 by k4v, stBorchert, dawehner: Views does not respect order of area handlers e888be3 Issue #2714989 by dawehner, jibran: Views which load the same entity type as entity and non default revision cause fatal in Sql::getCacheTags()
