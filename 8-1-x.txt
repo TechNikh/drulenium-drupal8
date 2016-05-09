@@ -16,3 +16,4 @@ ba9610a Issue #2708185 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' cod
 81586a6 Issue #2721283 by alexpott: Fix Drupal.Commenting.FunctionComment.$InReturnType e898c1f Issue #2660528 by swentel, david_garcia: File entity completely broken if the underlying file is gone
 8789530 Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to @throws
 53223f8 Issue #2716661 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to @see references
+852f0bd Issue #2720869 by jibran: Remove the use of deprecated CssSelector and use CssSelectorConverter instead 5d126f1 Issue #2721139 by klausi, dawehner: Replace deprecated files ParameterBag usage
