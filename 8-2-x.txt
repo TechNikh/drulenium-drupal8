@@ -28,3 +28,4 @@ f324b3e Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' cod
 9720aec Issue #2721139 by klausi, dawehner: Replace deprecated files ParameterBag usage
 84258cb Issue #2680227 by k4v, stBorchert, dawehner: Views does not respect order of area handlers e888be3 Issue #2714989 by dawehner, jibran: Views which load the same entity type as entity and non default revision cause fatal in Sql::getCacheTags()
 8df66f2 Issue #2721741 by neclimdul: Fix double argument declaration in core.service.yml
+45d0a03 Issue #2721351 by joelpittet: Upgrade to Twig 1.24
