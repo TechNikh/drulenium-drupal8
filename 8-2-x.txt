@@ -24,3 +24,4 @@ e65accd Issue #2628656 by thpoul, Matt_five, aerozeppelin, Wim Leers: Max dimens
 f324b3e Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' coding standard - Issues related to @throws
 2e5da97 Issue #2720891 by jan.stoeckler: Replace ContainerAware with ContainerAwareTrait
 5efda3c Issue #2380293 by dawehner, willzyx, jibran, mpdonadio, alexpott, damiankloip, cilefen, Berdir: Properly inject services into ModuleInstaller d7b430a Issue #2707255 by timmillwood, dawehner, amateescu, Berdir: All content entities should inhe
+9fc74f7 Issue #2721359 by alexpott: Fix tiny regression in coding standards in core/tests/Drupal/Tests/Core/DependencyInjection/UpdateDependenciesTraitTest.php
