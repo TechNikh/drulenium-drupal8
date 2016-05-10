@@ -19,3 +19,4 @@ ba9610a Issue #2708185 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' cod
 852f0bd Issue #2720869 by jibran: Remove the use of deprecated CssSelector and use CssSelectorConverter instead 5d126f1 Issue #2721139 by klausi, dawehner: Replace deprecated files ParameterBag usage
 d8ee7e2 Issue #2682723 by thpoul, jagjitsingh_drupal, avinashm, maggo: Allow ckeditor_stylesheets to refer to external URL, for e.g. webfonts f21cdec Issue #2680227 by k4v, stBorchert, dawehner: Views does not respect order of area handlers
 4378050 Issue #2621504 by dawehner, mpdonadio, Lendude, jibran: \Drupal\views\Plugin\views\field\Field::getValue needs to support entity reference items
+7426879 Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations
