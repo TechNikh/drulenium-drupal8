@@ -21,3 +21,4 @@ d8ee7e2 Issue #2682723 by thpoul, jagjitsingh_drupal, avinashm, maggo: Allow cke
 4378050 Issue #2621504 by dawehner, mpdonadio, Lendude, jibran: \Drupal\views\Plugin\views\field\Field::getValue needs to support entity reference items
 7426879 Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations
 864055b Issue #2702835 by ztl8702, pjonckiere, himanshugautam, dpovshed, mpdonadio: Update Doxygen for \Drupal\Component\DateTimePlus
+c61a5f3 Issue #2700495 by ronaldtebrake, droplet, samuel.mortenson, nod_: Method removing expired drupalSettings.ajax tries to remove settings when there is no ajax defined
