@@ -32,3 +32,4 @@ f324b3e Issue #2708179 by anoopjohn: Fix 'Drupal.Commenting.FunctionComment' cod
 df74821 Issue #2718545 by e0ipso, naveenvalecha: Refactor \Drupal\rest\RequestHandler::handle() into smaller methods 6fb3044 Issue #2621504 by dawehner, mpdonadio, Lendude, jibran: \Drupal\views\Plugin\views\field\Field::getValue needs to support ent
 60d994a Issue #2716073 by moonray, dawehner: Improve cron logging 14dac80 Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations e039fa2 Issue #2579235 by kylebrowning, willzyx: Resource plugin manager needlessly calls wrong
 2c22ebb Issue #2380293 revert by dawehner, willzyx, mpdonadio, jibran, alexpott, damiankloip, cilefen, Berdir: Properly inject services into ModuleInstaller
+2c54c39 Issue #2702835 by ztl8702, pjonckiere, himanshugautam, dpovshed, mpdonadio: Update Doxygen for \Drupal\Component\DateTimePlus
