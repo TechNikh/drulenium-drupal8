@@ -34,3 +34,4 @@ df74821 Issue #2718545 by e0ipso, naveenvalecha: Refactor \Drupal\rest\RequestHa
 2c22ebb Issue #2380293 revert by dawehner, willzyx, mpdonadio, jibran, alexpott, damiankloip, cilefen, Berdir: Properly inject services into ModuleInstaller
 2c54c39 Issue #2702835 by ztl8702, pjonckiere, himanshugautam, dpovshed, mpdonadio: Update Doxygen for \Drupal\Component\DateTimePlus
 2676175 Issue #2723345 by alexpott, dawehner: Simpletest cannot be uninstalled
+96ed8ac Issue #2723555 by valthebald: Remove entity_load* usage for configurable_language entity type f0e5004 Issue #2723521 by valthebald: Remove entity_load* usage for action entity type
