@@ -35,3 +35,4 @@ df74821 Issue #2718545 by e0ipso, naveenvalecha: Refactor \Drupal\rest\RequestHa
 2c54c39 Issue #2702835 by ztl8702, pjonckiere, himanshugautam, dpovshed, mpdonadio: Update Doxygen for \Drupal\Component\DateTimePlus
 2676175 Issue #2723345 by alexpott, dawehner: Simpletest cannot be uninstalled
 96ed8ac Issue #2723555 by valthebald: Remove entity_load* usage for configurable_language entity type f0e5004 Issue #2723521 by valthebald: Remove entity_load* usage for action entity type
+84e0606 Issue #2717805 by JeroenT, dawehner: Use display name instead of username
