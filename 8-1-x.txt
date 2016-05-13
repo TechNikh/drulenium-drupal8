@@ -25,3 +25,4 @@ c61a5f3 Issue #2700495 by ronaldtebrake, droplet, samuel.mortenson, nod_: Method
 d90a357 Issue #2676186 by alexpott: XDebug does not work in InstallerTestBase
 d90a357 Issue #2676186 by alexpott: XDebug does not work in InstallerTestBase c61a5f3 Issue #2700495 by ronaldtebrake, droplet, samuel.mortenson, nod_: Method removing expired drupalSettings.ajax tries to remove settings when there is no ajax defined
 5ba8499 Issue #2713587 by tduong, mkalkbrenner, Berdir, Gábor Hojtsy: NodeController::revisionOverview() shows no revisions if node has no translation for current language
+17fc360 Issue #2723345 by alexpott, dawehner: Simpletest cannot be uninstalled
