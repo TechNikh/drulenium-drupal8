@@ -38,3 +38,4 @@ df74821 Issue #2718545 by e0ipso, naveenvalecha: Refactor \Drupal\rest\RequestHa
 84e0606 Issue #2717805 by JeroenT, dawehner: Use display name instead of username
 0770471 Issue #2676186 by alexpott: XDebug does not work in InstallerTestBase f127999 Issue #2723557 by droplet: [Follow up] Drupal.ajax.expired tweaks
 934a4b4 Issue #2713587 by tduong, mkalkbrenner, Berdir, Gábor Hojtsy: NodeController::revisionOverview() shows no revisions if node has no translation for current language 3a7e829 Issue #2700495 by ronaldtebrake, droplet, samuel.mortenson, jibran, n
+934a4b4 Issue #2713587 by tduong, mkalkbrenner, Berdir, Gábor Hojtsy: NodeController::revisionOverview() shows no revisions if node has no translation for current language 3a7e829 Issue #2700495 by ronaldtebrake, droplet, samuel.mortenson, jibran, n
