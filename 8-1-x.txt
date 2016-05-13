@@ -27,3 +27,4 @@ d90a357 Issue #2676186 by alexpott: XDebug does not work in InstallerTestBase c6
 5ba8499 Issue #2713587 by tduong, mkalkbrenner, Berdir, Gábor Hojtsy: NodeController::revisionOverview() shows no revisions if node has no translation for current language
 17fc360 Issue #2723345 by alexpott, dawehner: Simpletest cannot be uninstalled
 50c4263 Issue #2724379 by generalconsensus: Typo on setUnrouted function
+e164976 Issue #2310307 by marthinal, tedbow, clemens.tolboom, queenvictoria, vivekvpandya, juampynr, Berdir, dawehner, Damien Tournoud, stefan.r, Wim Leers: File needs CRUD permissions to make REST work on entity/file/{id}
