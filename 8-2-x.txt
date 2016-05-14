@@ -42,3 +42,4 @@ df74821 Issue #2718545 by e0ipso, naveenvalecha: Refactor \Drupal\rest\RequestHa
 d276bb4 Issue #2574797 by kostyashupenko, dschenk, zuhair_ak, ckrina, emma.maria, tomgrandy, lucastockmann, Cottser, templeman, edwdeapri, BSpeel: Bartik: Site title lays over the menu block
 438f9e2 Issue #1853524 by frob, jibran, eriknewby, olli, vijaycs85, xjm, dawehner: Reintroduce Views integration for Book 36a23b3 Issue #2710469 by dagmar: Move contact module footer link to standard install profile 7ecafc0 Issue #2724379 by generalc
 b6861fe Issue #2310307 by marthinal, tedbow, clemens.tolboom, queenvictoria, vivekvpandya, juampynr, Berdir, dawehner, Damien Tournoud, stefan.r, Wim Leers: File needs CRUD permissions to make REST work on entity/file/{id} 0f3964d Issue #2490136 by t
+6020139 Issue #2600228 by lauriii: Mark \Drupal\Core\Theme\Registry internal
