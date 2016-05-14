@@ -28,3 +28,4 @@ d90a357 Issue #2676186 by alexpott: XDebug does not work in InstallerTestBase c6
 17fc360 Issue #2723345 by alexpott, dawehner: Simpletest cannot be uninstalled
 50c4263 Issue #2724379 by generalconsensus: Typo on setUnrouted function
 e164976 Issue #2310307 by marthinal, tedbow, clemens.tolboom, queenvictoria, vivekvpandya, juampynr, Berdir, dawehner, Damien Tournoud, stefan.r, Wim Leers: File needs CRUD permissions to make REST work on entity/file/{id}
+deaf760 Issue #2722265 by willito, kellyimagined, joachim, hussainweb, munizjor, selfuntitled, lisa.ugray, soulsesa, The Sean, kjl16, kurthill4: docs for MailManager::mail() refer to obsolete function user_preferred_langcode() 7acb0de Issue #2600228 
