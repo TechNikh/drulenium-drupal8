@@ -45,3 +45,4 @@ b6861fe Issue #2310307 by marthinal, tedbow, clemens.tolboom, queenvictoria, viv
 6020139 Issue #2600228 by lauriii: Mark \Drupal\Core\Theme\Registry internal
 08f4fc4 Issue #2723639 by pbuyle, valthebald: Remove entity_load* usage for user_role entity type 56e416c Issue #2722265 by willito, kellyimagined, joachim, hussainweb, munizjor, selfuntitled, lisa.ugray, soulsesa, The Sean, kjl16, kurthill4: docs fo
 f6e542c Revert "Issue #2710469 by dagmar: Move contact module footer link to standard install profile"
+5da0092 Issue #2683431 by penyaskito, EclipseGc, dawehner: PathItem doesn't return correct main property from mainPropertyName() 5e61925 Issue #2710133 by vasi, mikeryan: Follow up to #2561697 - Migration should not choke when the content_node_field 
