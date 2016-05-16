@@ -48,3 +48,4 @@ f6e542c Revert "Issue #2710469 by dagmar: Move contact module footer link to sta
 5da0092 Issue #2683431 by penyaskito, EclipseGc, dawehner: PathItem doesn't return correct main property from mainPropertyName() 5e61925 Issue #2710133 by vasi, mikeryan: Follow up to #2561697 - Migration should not choke when the content_node_field 
 e5b5f31 Issue #2725755 by mkalkbrenner: Fatal error: Cannot redeclare class Drupal\Tests\migrate\Unit\TestMigration f1442cf Issue #2724259 by swentel: Remove swentel from MAINTAINERS.txt
 20642d5 Issue #2724941 by vasi: Need to be able to lookup destination IDs by partial source IDs
+a9666b4 Issue #842620 by alexpott, hansfn, BondD, jurjenn, Skin, xjm, hitesh-jain, solidwebcode: Update manager can't install modules using FTP due broken FileTransferAuthorizeForm fe6b686 Issue #2575519 by Wim Leers, dawehner, alexpott: Twig templat
