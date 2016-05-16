@@ -32,3 +32,4 @@ deaf760 Issue #2722265 by willito, kellyimagined, joachim, hussainweb, munizjor,
 1efd63e Issue #2710133 by vasi, mikeryan: Follow up to #2561697 - Migration should not choke when the content_node_field table isn't available 93d28a0 Issue #2725441 by tstoeckler: \Drupal\simpletest\ContentTypeCreationTrait::createContentType() need
 8f61056 Issue #2683431 by penyaskito, EclipseGc, dawehner: PathItem doesn't return correct main property from mainPropertyName()
 7939109 Issue #2724259 by swentel: Remove swentel from MAINTAINERS.txt
+b073cee Issue #2724941 by vasi: Need to be able to lookup destination IDs by partial source IDs af4dc7f Issue #2725755 by mkalkbrenner: Fatal error: Cannot redeclare class Drupal\Tests\migrate\Unit\TestMigration
