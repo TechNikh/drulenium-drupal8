@@ -31,3 +31,4 @@ e164976 Issue #2310307 by marthinal, tedbow, clemens.tolboom, queenvictoria, viv
 deaf760 Issue #2722265 by willito, kellyimagined, joachim, hussainweb, munizjor, selfuntitled, lisa.ugray, soulsesa, The Sean, kjl16, kurthill4: docs for MailManager::mail() refer to obsolete function user_preferred_langcode() 7acb0de Issue #2600228 
 1efd63e Issue #2710133 by vasi, mikeryan: Follow up to #2561697 - Migration should not choke when the content_node_field table isn't available 93d28a0 Issue #2725441 by tstoeckler: \Drupal\simpletest\ContentTypeCreationTrait::createContentType() need
 8f61056 Issue #2683431 by penyaskito, EclipseGc, dawehner: PathItem doesn't return correct main property from mainPropertyName()
+7939109 Issue #2724259 by swentel: Remove swentel from MAINTAINERS.txt
