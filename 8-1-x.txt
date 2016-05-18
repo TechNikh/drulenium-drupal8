@@ -35,3 +35,4 @@ deaf760 Issue #2722265 by willito, kellyimagined, joachim, hussainweb, munizjor,
 b073cee Issue #2724941 by vasi: Need to be able to lookup destination IDs by partial source IDs af4dc7f Issue #2725755 by mkalkbrenner: Fatal error: Cannot redeclare class Drupal\Tests\migrate\Unit\TestMigration
 45028bf Issue #2575519 by Wim Leers, dawehner, alexpott: Twig template variables containing result of Drupal::url() and Drupal:l:() don't bubble up their cacheability and attachment metadata (e.g. token placeholder)
 00c3ef3 Issue #842620 by alexpott, hansfn, BondD, jurjenn, Skin, xjm, hitesh-jain, solidwebcode: Update manager can't install modules using FTP due broken FileTransferAuthorizeForm
+5a1a66f Issue #2721921 by er.pushpinderrana, Pashupathi Nath G, shashikant_chauhan, joachim: @code tag showing on docs for ExtensionDiscovery
