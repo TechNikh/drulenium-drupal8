@@ -51,3 +51,4 @@ e5b5f31 Issue #2725755 by mkalkbrenner: Fatal error: Cannot redeclare class Drup
 a9666b4 Issue #842620 by alexpott, hansfn, BondD, jurjenn, Skin, xjm, hitesh-jain, solidwebcode: Update manager can't install modules using FTP due broken FileTransferAuthorizeForm fe6b686 Issue #2575519 by Wim Leers, dawehner, alexpott: Twig templat
 cb310b6 Issue #2699613 by alexpott, catch, Wim Leers, Berdir, dawehner, mpdonadio, borisson_, Fabianx: Set a shorter TTL for 404 responses in page_cache module
 4c4a039 Issue #2723587 by marvin_B8, snehi, Beau Townsend, valthebald, John Cook: Remove entity_load* usage for 'editor' entity type 4bc14c7 Issue #2723631 by pbuyle, John Cook, valthebald, Mile23: Remove entity_load* usage for tour entity type 899cb
+ee5274a Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched: Changing cardinality lower than highest existing delta causes data loss upon save
