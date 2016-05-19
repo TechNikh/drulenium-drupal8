@@ -54,3 +54,4 @@ cb310b6 Issue #2699613 by alexpott, catch, Wim Leers, Berdir, dawehner, mpdonadi
 ee5274a Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched: Changing cardinality lower than highest existing delta causes data loss upon save
 4ac8f96 Issue #2716081 by timmillwood, dixon_: BlockContent should have revision_user and revision_created fields and implement RevisionLogInterface
 6b70606 Issue #2723567 by snehi, Ashish.Dalvi, marvin_B8, John Cook: Remove entity_load* usage for entity_view_display entity type 85fa317 Issue #2721921 by er.pushpinderrana, Pashupathi Nath G, shashikant_chauhan, joachim: @code tag showing on docs 
+e391a02 Revert "Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched: Changing cardinality lower than highest existing delta causes data loss upon save"
