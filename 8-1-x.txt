@@ -37,3 +37,4 @@ b073cee Issue #2724941 by vasi: Need to be able to lookup destination IDs by par
 00c3ef3 Issue #842620 by alexpott, hansfn, BondD, jurjenn, Skin, xjm, hitesh-jain, solidwebcode: Update manager can't install modules using FTP due broken FileTransferAuthorizeForm
 5a1a66f Issue #2721921 by er.pushpinderrana, Pashupathi Nath G, shashikant_chauhan, joachim: @code tag showing on docs for ExtensionDiscovery
 97d1fae Issue #2605654 by Mile23, donquixote, dawehner, alexpott, catch: Modify Drupal\Core\Extension\ExtensionDiscovery to allow for scanning multiple file systems, enabling vfsStream testing 53fc35b Issue #2725541 by gargsuchi: Add phpcs.xml and ph
+25628e3 Issue #2724225 by thpoul, alexpott, Wim Leers, mlewand: Update CKEditor library to 4.5.9
