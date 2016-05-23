@@ -61,3 +61,4 @@ e391a02 Revert "Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, y
 5735dfc Issue #2646328 by alexpott, Wim Leers, David_Rothstein, aaronott, Ayesh: CSRF in update module manual check links 2486f10 Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched, amateescu, droplet: Changing cardinality lower tha
 240586c Issue #2729247 by andypost: Replace remaining $request->get() usage to prepare core for Symfony 3 ff28f52 Issue #2568287 by latikas, rashid_786, drnikki, anavarre, miteshmap, cilefen: NodeEditFormTest::testNodeEdit() sets but uses it only onc
 20a0802 Issue #2687897 by dawehner, jhedstrom, catch, jibran, Berdir, klausi: Convert system module's kernel tests to NG 4012b7e Issue #2724553 by snehi, Sonal.Sangale, er.pushpinderrana, jhodgdon, e.r.n.i.e: Chapter "Change file system storage setti
+4ca088c Revert "Issue #2723589 by Ashish.Dalvi, gaurav.pahuja, marvin_B8, valthebald: Remove entity_load* usage for filter_format entity type"
