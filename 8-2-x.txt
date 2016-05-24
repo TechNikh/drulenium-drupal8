@@ -63,3 +63,4 @@ e391a02 Revert "Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, y
 20a0802 Issue #2687897 by dawehner, jhedstrom, catch, jibran, Berdir, klausi: Convert system module's kernel tests to NG 4012b7e Issue #2724553 by snehi, Sonal.Sangale, er.pushpinderrana, jhodgdon, e.r.n.i.e: Chapter "Change file system storage setti
 4ca088c Revert "Issue #2723589 by Ashish.Dalvi, gaurav.pahuja, marvin_B8, valthebald: Remove entity_load* usage for filter_format entity type"
 918f6b5 Issue #2723589 by Ashish.Dalvi, gaurav.pahuja, marvin_B8, valthebald: Remove entity_load* usage for filter_format entity type
+61c08e0 Issue #2725415 by catch, Berdir, Wim Leers, xjm, juhaszg, cmanalansan: Text Editor module fails to track usage of images uploaded in text_with_summary fields, allows uploaded images to be deleted
