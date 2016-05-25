@@ -42,3 +42,4 @@ b073cee Issue #2724941 by vasi: Need to be able to lookup destination IDs by par
 5775e3a Issue #2568287 by latikas, rashid_786, drnikki, anavarre, miteshmap, cilefen: NodeEditFormTest::testNodeEdit() sets but uses it only once cb95ec0 Issue #2646328 by alexpott, Wim Leers, David_Rothstein, aaronott, Ayesh: CSRF in update module m
 aeec0d5 Issue #2724553 by snehi, Sonal.Sangale, er.pushpinderrana, jhodgdon, e.r.n.i.e: Chapter "Change file system storage settings" in INSTALL.txt needs to be adapted to Drupal 8 eacc6c8 Issue #2459339 by dagmar, klausi, David_Rothstein: Log messag
 689488b Issue #2725415 by catch, Berdir, Wim Leers, xjm, juhaszg, cmanalansan: Text Editor module fails to track usage of images uploaded in text_with_summary fields, allows uploaded images to be deleted
+f6df84c Issue #2729171 by Vinay15, kiamlaluno, jhodgdon: callback_batch_operation() code still contains Drupal 6 code
