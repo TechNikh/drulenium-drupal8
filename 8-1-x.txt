@@ -45,3 +45,4 @@ aeec0d5 Issue #2724553 by snehi, Sonal.Sangale, er.pushpinderrana, jhodgdon, e.r
 f6df84c Issue #2729171 by Vinay15, kiamlaluno, jhodgdon: callback_batch_operation() code still contains Drupal 6 code
 c850275 Issue #2721887 by snehi, Sonal.Sangale, gaurav.pahuja, Ashish.Dalvi, jhodgdon, joachim, Mile23: Docs topic 'File interface' contains obsolete data
 dcf2f67 Issue #2721355 by alexpott, neclimdul, Mile23: MissingDependentModuleUnitTest has the wrong namespace
+bc76b20 Issue #2729439 by Wim Leers, Berdir: QueryArgsCacheContext should return a special value for ?arg (without value)
