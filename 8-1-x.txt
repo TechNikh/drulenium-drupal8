@@ -44,3 +44,4 @@ aeec0d5 Issue #2724553 by snehi, Sonal.Sangale, er.pushpinderrana, jhodgdon, e.r
 689488b Issue #2725415 by catch, Berdir, Wim Leers, xjm, juhaszg, cmanalansan: Text Editor module fails to track usage of images uploaded in text_with_summary fields, allows uploaded images to be deleted
 f6df84c Issue #2729171 by Vinay15, kiamlaluno, jhodgdon: callback_batch_operation() code still contains Drupal 6 code
 c850275 Issue #2721887 by snehi, Sonal.Sangale, gaurav.pahuja, Ashish.Dalvi, jhodgdon, joachim, Mile23: Docs topic 'File interface' contains obsolete data
+dcf2f67 Issue #2721355 by alexpott, neclimdul, Mile23: MissingDependentModuleUnitTest has the wrong namespace
