@@ -68,3 +68,4 @@ e391a02 Revert "Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, y
 8692778 Issue #2721887 by snehi, Sonal.Sangale, gaurav.pahuja, Ashish.Dalvi, jhodgdon, joachim, Mile23: Docs topic 'File interface' contains obsolete data
 ad7cb93 Issue #2721355 by alexpott, neclimdul, Mile23: MissingDependentModuleUnitTest has the wrong namespace
 67bf9fb Issue #2729439 by Wim Leers, Berdir: QueryArgsCacheContext should return a special value for ?arg (without value) 381ab39 Issue #2724407 by mpdonadio: NodePreviewForm unnecessarily explicitly implements ContainerInjectionInterface
+aa6235f Issue #2699267 by Chi: Wrong placeholder format in file_managed_file_save_upload() 8c570329 Issue #2626298 by marthinal, borisson_, Wim Leers, dawehner: REST module must cache only responses to GET requests
