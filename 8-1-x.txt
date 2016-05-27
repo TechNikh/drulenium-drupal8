@@ -53,3 +53,4 @@ fcf6846 Issue #2546248 by scythian, XaviP, darrenwh, mikebell_, ingaro, urbanleg
 4e05f84 Issue #2726837 by tim.plunkett, dipakmdhrm, dawehner: \Drupal\Core\Plugin\DefaultSingleLazyPluginCollection::addInstanceId should set $this->instanceId
 aee92c5 Issue #2701769 by snufkin: Missing @return documentation from ContentTranslationHandler::entityFormTitle 292b549 Issue #2727901 by sreese: MimeTypeGuesser::__construct has doxygen typo
 1694030 Issue #2729083 by martin107, jhodgdon: @encode becomes @endcode
+11d4d9f Issue #2533776 by nicolas.rafaelli, lluvigne, dagmar: Instead of mocking TypedDataManager, use TypedDataManagerInterface in tests
