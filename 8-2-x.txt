@@ -74,3 +74,4 @@ aa6235f Issue #2699267 by Chi: Wrong placeholder format in file_managed_file_sav
 8e2cf9d Issue #2546248 by scythian, XaviP, darrenwh, mikebell_, ingaro, urbanlegend, jhodgdon, davidhernandez, andypost, joelpittet, emma.maria, cdykstra, Cottser, LewisNyman, joachim: Use consistent style to mention HTML tags in code comments 1eb935
 d27d90c Issue #2708509 by damiankloip, dawehner, amateescu: custom_storage does not work on field types with a storage schema already
 d27d90c Issue #2708509 by damiankloip, dawehner, amateescu: custom_storage does not work on field types with a storage schema already
+7c0adf9 Issue #2726837 by tim.plunkett, dipakmdhrm, dawehner: \Drupal\Core\Plugin\DefaultSingleLazyPluginCollection::addInstanceId should set $this->instanceId
