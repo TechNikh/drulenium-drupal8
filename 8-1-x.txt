@@ -54,3 +54,4 @@ fcf6846 Issue #2546248 by scythian, XaviP, darrenwh, mikebell_, ingaro, urbanleg
 aee92c5 Issue #2701769 by snufkin: Missing @return documentation from ContentTranslationHandler::entityFormTitle 292b549 Issue #2727901 by sreese: MimeTypeGuesser::__construct has doxygen typo
 1694030 Issue #2729083 by martin107, jhodgdon: @encode becomes @endcode
 11d4d9f Issue #2533776 by nicolas.rafaelli, lluvigne, dagmar: Instead of mocking TypedDataManager, use TypedDataManagerInterface in tests
+829fe8a Issue #2631774 by Wim Leers, marthinal, dawehner, tedbow, tyler.frankenstein, gabesullice, valthebald: Impossible to update Comment entity with REST (HTTP PATCH): bundle field not allowed to be updated, but EntityNormalizer::denormalize() req
