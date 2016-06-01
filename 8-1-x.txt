@@ -56,3 +56,4 @@ aee92c5 Issue #2701769 by snufkin: Missing @return documentation from ContentTra
 11d4d9f Issue #2533776 by nicolas.rafaelli, lluvigne, dagmar: Instead of mocking TypedDataManager, use TypedDataManagerInterface in tests
 829fe8a Issue #2631774 by Wim Leers, marthinal, dawehner, tedbow, tyler.frankenstein, gabesullice, valthebald: Impossible to update Comment entity with REST (HTTP PATCH): bundle field not allowed to be updated, but EntityNormalizer::denormalize() req
 4325df9 Issue #2728137 by dawehner, amateescu: \Drupal\taxonomy\Plugin\views\argument_default\Tid doesn't work with views selection plugin
+84f8bfd Revert "Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations"
