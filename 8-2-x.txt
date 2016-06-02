@@ -82,3 +82,4 @@ c28aa40 Issue #2701769 by snufkin: Missing @return documentation from ContentTra
 f809699 Issue #2728137 by dawehner, amateescu: \Drupal\taxonomy\Plugin\views\argument_default\Tid doesn't work with views selection plugin
 d4c4193 Revert "Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations"
 edad386 Issue #2567133 by Wim Leers: getTypes in TypeLinkManager doesn't work with the null cache back end
+53e54ea Issue #2722763 by drnikki: Select::extend doc incorrectly says to use base name 770fcd0 Issue #2561993 by jhedstrom, jonathanjfshaw, yoroy, emma.maria, mpdonadio: Better labelling for Date time form select elements
