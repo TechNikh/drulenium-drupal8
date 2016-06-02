@@ -58,3 +58,4 @@ aee92c5 Issue #2701769 by snufkin: Missing @return documentation from ContentTra
 4325df9 Issue #2728137 by dawehner, amateescu: \Drupal\taxonomy\Plugin\views\argument_default\Tid doesn't work with views selection plugin
 84f8bfd Revert "Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations"
 2d263a1 Back to dev. 6204be6 Drupal 8.1.2
+5b88f21 Issue #2722763 by drnikki: Select::extend doc incorrectly says to use base name 7d3ab5a Issue #2561993 by jhedstrom, jonathanjfshaw, yoroy, emma.maria, mpdonadio: Better labelling for Date time form select elements
