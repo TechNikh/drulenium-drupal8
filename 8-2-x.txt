@@ -81,3 +81,4 @@ c28aa40 Issue #2701769 by snufkin: Missing @return documentation from ContentTra
 6749853 Issue #2631774 by Wim Leers, marthinal, dawehner, tedbow, tyler.frankenstein, gabesullice, valthebald: Impossible to update Comment entity with REST (HTTP PATCH): bundle field not allowed to be updated, but EntityNormalizer::denormalize() req
 f809699 Issue #2728137 by dawehner, amateescu: \Drupal\taxonomy\Plugin\views\argument_default\Tid doesn't work with views selection plugin
 d4c4193 Revert "Issue #2694391 by chx, benjy, catch, dawehner: Separate cache bin for migrations"
+edad386 Issue #2567133 by Wim Leers: getTypes in TypeLinkManager doesn't work with the null cache back end
