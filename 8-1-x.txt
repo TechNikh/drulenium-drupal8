@@ -61,3 +61,4 @@ aee92c5 Issue #2701769 by snufkin: Missing @return documentation from ContentTra
 5b88f21 Issue #2722763 by drnikki: Select::extend doc incorrectly says to use base name 7d3ab5a Issue #2561993 by jhedstrom, jonathanjfshaw, yoroy, emma.maria, mpdonadio: Better labelling for Date time form select elements
 64bc4a2 Issue #2721909 by anoopjohn: Fix Drupal.Commenting.FunctionComment.ReturnCommentIndentation
 c2062bf Issue #2699267 by Chi: Wrong placeholder format in file_managed_file_save_upload()
+f918de0 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies gives "Unsupported operand types"
