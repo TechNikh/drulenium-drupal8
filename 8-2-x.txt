@@ -85,3 +85,4 @@ edad386 Issue #2567133 by Wim Leers: getTypes in TypeLinkManager doesn't work wi
 53e54ea Issue #2722763 by drnikki: Select::extend doc incorrectly says to use base name 770fcd0 Issue #2561993 by jhedstrom, jonathanjfshaw, yoroy, emma.maria, mpdonadio: Better labelling for Date time form select elements
 df0425c Issue #2721909 by anoopjohn: Fix Drupal.Commenting.FunctionComment.ReturnCommentIndentation
 fc189a4 Issue #2723611 by Ashish.Dalvi, Sagar Ramgade, gaurav.pahuja, Sonal.Sangale, marvin_B8, valthebald, Mile23, xjm: Remove entity_load* usage for node entity type
+f56e100 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies gives "Unsupported operand types"
