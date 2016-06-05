@@ -87,3 +87,4 @@ df0425c Issue #2721909 by anoopjohn: Fix Drupal.Commenting.FunctionComment.Retur
 fc189a4 Issue #2723611 by Ashish.Dalvi, Sagar Ramgade, gaurav.pahuja, Sonal.Sangale, marvin_B8, valthebald, Mile23, xjm: Remove entity_load* usage for node entity type
 f56e100 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies gives "Unsupported operand types"
 3c7e318 Issue #2611268 by darketaine, iamDamon, thpoul: Link field on node edit causes horizontal scrollbar
+4ad7ddb Issue #2738575 by lluvigne: Parameters to ModuleHandler::invoke() are incorrect da66242 Issue #2682373 by klausi, thePanz: Implement ContainerAwareEventDispatcher::getListenerPriority()
