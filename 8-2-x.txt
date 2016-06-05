@@ -86,3 +86,4 @@ edad386 Issue #2567133 by Wim Leers: getTypes in TypeLinkManager doesn't work wi
 df0425c Issue #2721909 by anoopjohn: Fix Drupal.Commenting.FunctionComment.ReturnCommentIndentation
 fc189a4 Issue #2723611 by Ashish.Dalvi, Sagar Ramgade, gaurav.pahuja, Sonal.Sangale, marvin_B8, valthebald, Mile23, xjm: Remove entity_load* usage for node entity type
 f56e100 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies gives "Unsupported operand types"
+3c7e318 Issue #2611268 by darketaine, iamDamon, thpoul: Link field on node edit causes horizontal scrollbar
