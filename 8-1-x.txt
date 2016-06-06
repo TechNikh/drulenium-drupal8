@@ -63,3 +63,4 @@ aee92c5 Issue #2701769 by snufkin: Missing @return documentation from ContentTra
 c2062bf Issue #2699267 by Chi: Wrong placeholder format in file_managed_file_save_upload()
 f918de0 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies gives "Unsupported operand types"
 3b64b0d Issue #2718717 by damiankloip: Assertion error when paging a view using an entity autocomplete exposed filter 7c4b577 Issue #2738575 by lluvigne: Parameters to ModuleHandler::invoke() are incorrect
+1777a1c Issue #2477899 by dawehner, kevin.dutra, borisson_, bojanz, catch, amateescu: Multiple valued Base fields won't work in Views
