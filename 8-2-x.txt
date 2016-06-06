@@ -89,3 +89,4 @@ f56e100 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies give
 3c7e318 Issue #2611268 by darketaine, iamDamon, thpoul: Link field on node edit causes horizontal scrollbar
 4ad7ddb Issue #2738575 by lluvigne: Parameters to ModuleHandler::invoke() are incorrect da66242 Issue #2682373 by klausi, thePanz: Implement ContainerAwareEventDispatcher::getListenerPriority()
 3f52754 Issue #2718717 by damiankloip: Assertion error when paging a view using an entity autocomplete exposed filter
+445bc90 Issue #2477899 by dawehner, kevin.dutra, borisson_, bojanz, catch, amateescu: Multiple valued Base fields won't work in Views
