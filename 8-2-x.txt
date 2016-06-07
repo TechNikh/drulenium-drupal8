@@ -93,3 +93,4 @@ f56e100 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies give
 4c30de3 Issue #2726645 by klausi: Do not @deprecate EntityManager until all usages are removed (helps the Symfony 3 update)
 0107be6 Issue #2712637 by klausi, jibran, dawehner, simensen, JeroenT: Update stack/builder for Symfony 3 compatibility
 a4bf1e9 Issue #2735045 by klausi, dawehner, jibran: Convert StandardTest to BrowserTestBase by introducing a AssertLegacyTrait and new assertions on the WebAssert 83fce77 Issue #2466197 by alexpott, heddn, dawehner, pjcdawkins: Staging directory shou
+74ccd07 Issue #2735235 by neclimdul: BrowserTestBase standards cleanup 4142c87 Issue #2737825 by markdorison: ESLint error in autocomplete.js f89e84d Issue #2682585 by heddn, dscl, hanoii, willwh, hussainweb: Rename MigrationCreationTrait as it no lo
