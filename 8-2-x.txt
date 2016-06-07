@@ -92,3 +92,4 @@ f56e100 Issue #2717483 by pguillard, mikeryan: Empty migration_dependencies give
 445bc90 Issue #2477899 by dawehner, kevin.dutra, borisson_, bojanz, catch, amateescu: Multiple valued Base fields won't work in Views
 4c30de3 Issue #2726645 by klausi: Do not @deprecate EntityManager until all usages are removed (helps the Symfony 3 update)
 0107be6 Issue #2712637 by klausi, jibran, dawehner, simensen, JeroenT: Update stack/builder for Symfony 3 compatibility
+a4bf1e9 Issue #2735045 by klausi, dawehner, jibran: Convert StandardTest to BrowserTestBase by introducing a AssertLegacyTrait and new assertions on the WebAssert 83fce77 Issue #2466197 by alexpott, heddn, dawehner, pjcdawkins: Staging directory shou
