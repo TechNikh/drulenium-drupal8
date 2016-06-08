@@ -96,3 +96,4 @@ a4bf1e9 Issue #2735045 by klausi, dawehner, jibran: Convert StandardTest to Brow
 74ccd07 Issue #2735235 by neclimdul: BrowserTestBase standards cleanup 4142c87 Issue #2737825 by markdorison: ESLint error in autocomplete.js f89e84d Issue #2682585 by heddn, dscl, hanoii, willwh, hussainweb: Rename MigrationCreationTrait as it no lo
 49f8560 Revert "Issue #2735235 by neclimdul: BrowserTestBase standards cleanup"
 15b999d Issue #2533220 by snehi, pjonckiere, mirom, chx, jhodgdon, dawehner: RouteBuilderInterface has no docblock
+cf1a9f8 Issue #576296 by no_angel, joachim, dagmar, jhodgdon, coderintherye, yoroy, xjm: Remove redundant description for some permissions f8f34be Issue #2725425 by mfb: Incorrect mime type on generated images
