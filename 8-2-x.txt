@@ -98,3 +98,4 @@ a4bf1e9 Issue #2735045 by klausi, dawehner, jibran: Convert StandardTest to Brow
 15b999d Issue #2533220 by snehi, pjonckiere, mirom, chx, jhodgdon, dawehner: RouteBuilderInterface has no docblock
 cf1a9f8 Issue #576296 by no_angel, joachim, dagmar, jhodgdon, coderintherye, yoroy, xjm: Remove redundant description for some permissions f8f34be Issue #2725425 by mfb: Incorrect mime type on generated images
 b292739 Issue #2714607 by neclimdul: Use phpunit's requires to require some extensions c962bd0 Issue #2705921 by jmk61, Vinay15, chgasparoto, jhodgdon, vegantriathlete, kjl16, joachim: docs for postCreate() should clarify create does not mean save 32
+700452b Issue #2722621 by anoopjohn: Fix Drupal.Commenting.FunctionComment.InvalidReturn and Drupal.Commenting.FunctionComment.VoidReturn 8e062e9 Issue #2744089 by pfrenssen: Fix visibility of AssertLegacyTrait::assertLink()
