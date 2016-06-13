@@ -104,3 +104,4 @@ b292739 Issue #2714607 by neclimdul: Use phpunit's requires to require some exte
 b8a61f2 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passwords after D7 to D8 migration
 5643757 Issue #2573635 by Wim Leers, Mac_Weber, lluvigne, dawehner, dimaro, ConfuciusDa1st, rootwork, BR0kEN, unstatu: Url::fromUri() should accept protocol-relative URLs
 105b856 Issue #2491253 by Chernous_dn, rudraram, mortendk, pjbaert, LewisNyman, mayurjadhav, aadrian, joginderpc: Remove file.admin.css from file module
+4e7f9f0 Issue #2506449 by dagmar, willzyx, mikeohara, yoroy, catch: Transform "Clear log messages" submit button into a link in admin/reports/dblog
