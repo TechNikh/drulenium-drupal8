@@ -102,3 +102,4 @@ b292739 Issue #2714607 by neclimdul: Use phpunit's requires to require some exte
 0fc2e8d Issue #2743297: Mis-named update function in views
 42d2ce9 Issue #2742541 by klausi: ApcuBackendTest is skipped in phpunit because of wrong @requires 9eb8c7a Issue #2744647 by chishah92: \Drupal\block\Entity\Block::conditionPluginManager as pointless line e5110db Issue #2744375 by juampynr: Fix typo 
 b8a61f2 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passwords after D7 to D8 migration
+5643757 Issue #2573635 by Wim Leers, Mac_Weber, lluvigne, dawehner, dimaro, ConfuciusDa1st, rootwork, BR0kEN, unstatu: Url::fromUri() should accept protocol-relative URLs
