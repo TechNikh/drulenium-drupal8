@@ -109,3 +109,4 @@ b8a61f2 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passw
 da16ae5 Issue #2403307 by dawehner, marthinal, clemens.tolboom, tedbow, Wim Leers, neclimdul, Crell, klausi, andypost, e0ipso: RPC endpoints for user authenication: log in, check login status, log out
 ad8c7b3 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing exceptions 9764ec4 Revert "Issue #2403307 by dawehner, marthinal, clemens.tolboom, tedbow, Wim Leers, neclimdul, Crell, klausi, andypost, e0ipso: RPC endpoints for user autheni
 bbfb417 Issue #2745915 by tim.plunkett, Wim Leers, davidhernandez, tedbow: StableLibraryOverrideTest does not respect experimental modules
+ce31c4e Issue #2663270 by Berdir, marthinal, Wim Leers: MailManager::mail() should run inside its own render context: it sends e-mails, not (cacheable) responses a03a23b Issue #2732091 by damiankloip: Boolean exposed filter value widget just shows 'T
