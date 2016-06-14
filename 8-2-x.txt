@@ -107,3 +107,4 @@ b8a61f2 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passw
 4e7f9f0 Issue #2506449 by dagmar, willzyx, mikeohara, yoroy, catch: Transform "Clear log messages" submit button into a link in admin/reports/dblog
 40136a9 Issue #2226317 by GemVinny, Manuel Garcia, joginderpc, Oostie, LewisNyman, juho.lehmonen, amanire, ibbwebguy, aczietlow, studiozut, alexpott, emma.maria, rteijeiro: Divs in the container-inline wrapper should be inline-block instead of inline
 da16ae5 Issue #2403307 by dawehner, marthinal, clemens.tolboom, tedbow, Wim Leers, neclimdul, Crell, klausi, andypost, e0ipso: RPC endpoints for user authenication: log in, check login status, log out
+ad8c7b3 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing exceptions 9764ec4 Revert "Issue #2403307 by dawehner, marthinal, clemens.tolboom, tedbow, Wim Leers, neclimdul, Crell, klausi, andypost, e0ipso: RPC endpoints for user autheni
