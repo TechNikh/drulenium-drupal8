@@ -74,3 +74,4 @@ ca38d94 Issue #2722621 by anoopjohn: Fix Drupal.Commenting.FunctionComment.Inval
 a8d3c98 Issue #2573635 by Wim Leers, Mac_Weber, lluvigne, dawehner, dimaro, ConfuciusDa1st, rootwork, BR0kEN, unstatu: Url::fromUri() should accept protocol-relative URLs
 b4c3f70 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passwords after D7 to D8 migration
 b9de990 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing exceptions
+9365344 Issue #2745915 by tim.plunkett, Wim Leers, davidhernandez, tedbow: StableLibraryOverrideTest does not respect experimental modules
