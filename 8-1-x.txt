@@ -73,3 +73,4 @@ ca38d94 Issue #2722621 by anoopjohn: Fix Drupal.Commenting.FunctionComment.Inval
 63645aa Issue #2742541 by klausi: ApcuBackendTest is skipped in phpunit because of wrong @requires c0945c1 Issue #2744647 by chishah92: \Drupal\block\Entity\Block::conditionPluginManager as pointless line d80e72f Issue #2744375 by juampynr: Fix typo 
 a8d3c98 Issue #2573635 by Wim Leers, Mac_Weber, lluvigne, dawehner, dimaro, ConfuciusDa1st, rootwork, BR0kEN, unstatu: Url::fromUri() should accept protocol-relative URLs
 b4c3f70 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passwords after D7 to D8 migration
+b9de990 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing exceptions
