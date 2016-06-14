@@ -105,3 +105,4 @@ b8a61f2 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passw
 5643757 Issue #2573635 by Wim Leers, Mac_Weber, lluvigne, dawehner, dimaro, ConfuciusDa1st, rootwork, BR0kEN, unstatu: Url::fromUri() should accept protocol-relative URLs
 105b856 Issue #2491253 by Chernous_dn, rudraram, mortendk, pjbaert, LewisNyman, mayurjadhav, aadrian, joginderpc: Remove file.admin.css from file module
 4e7f9f0 Issue #2506449 by dagmar, willzyx, mikeohara, yoroy, catch: Transform "Clear log messages" submit button into a link in admin/reports/dblog
+40136a9 Issue #2226317 by GemVinny, Manuel Garcia, joginderpc, Oostie, LewisNyman, juho.lehmonen, amanire, ibbwebguy, aczietlow, studiozut, alexpott, emma.maria, rteijeiro: Divs in the container-inline wrapper should be inline-block instead of inline
