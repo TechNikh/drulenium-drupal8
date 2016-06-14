@@ -75,3 +75,4 @@ a8d3c98 Issue #2573635 by Wim Leers, Mac_Weber, lluvigne, dawehner, dimaro, Conf
 b4c3f70 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passwords after D7 to D8 migration
 b9de990 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing exceptions
 9365344 Issue #2745915 by tim.plunkett, Wim Leers, davidhernandez, tedbow: StableLibraryOverrideTest does not respect experimental modules
+d745549 Issue #2732091 by damiankloip: Boolean exposed filter value widget just shows 'True' label
