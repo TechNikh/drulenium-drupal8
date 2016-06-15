@@ -76,3 +76,4 @@ b4c3f70 Issue #2598038 by alexpott, sethcardoza, quietone, Jaesin: Invalid passw
 b9de990 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing exceptions
 9365344 Issue #2745915 by tim.plunkett, Wim Leers, davidhernandez, tedbow: StableLibraryOverrideTest does not respect experimental modules
 d745549 Issue #2732091 by damiankloip: Boolean exposed filter value widget just shows 'True' label
+cb80d54 Issue #2729211 by catch, Wim Leers: node_query_node_access_alter() should only add cacheability on GET/HEAD 20fdfbc Issue #2705977 by heddn, edysmp: D6/7->D8 migration: User role based block visibility settings doesn't filter missing roles
