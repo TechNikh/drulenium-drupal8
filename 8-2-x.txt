@@ -111,3 +111,4 @@ ad8c7b3 Issue #2748375 by stefan.r: BrowserTestBase fatals before showing except
 bbfb417 Issue #2745915 by tim.plunkett, Wim Leers, davidhernandez, tedbow: StableLibraryOverrideTest does not respect experimental modules
 ce31c4e Issue #2663270 by Berdir, marthinal, Wim Leers: MailManager::mail() should run inside its own render context: it sends e-mails, not (cacheable) responses a03a23b Issue #2732091 by damiankloip: Boolean exposed filter value widget just shows 'T
 bc084e1 Issue #2327941 by Wim Leers, Sonal.Sangale: Simplify in-place editor selection (Was: Refactor PlainTextEditor/WysiwygEditor/Editor in-place editors now that text fields no longer have configurable filteredness) b313cdc Issue #2705977 by heddn
+7bd926f Issue #2729211 by catch, Wim Leers: node_query_node_access_alter() should only add cacheability on GET/HEAD
