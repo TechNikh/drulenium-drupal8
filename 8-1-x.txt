@@ -79,3 +79,4 @@ d745549 Issue #2732091 by damiankloip: Boolean exposed filter value widget just 
 cb80d54 Issue #2729211 by catch, Wim Leers: node_query_node_access_alter() should only add cacheability on GET/HEAD 20fdfbc Issue #2705977 by heddn, edysmp: D6/7->D8 migration: User role based block visibility settings doesn't filter missing roles
 6c8c359 Issue #2744383 by chishah92, Eric_A: drupal/core-dependency-injection is missing from the drupal/core replace section 6875006 Issue #2744881: jhodgdon stepping away from MAINTAINERS.txt
 3ee6528 Issue #2747945 by mayurjadhav, Beakerboy: Extra semicolons in QueryInterface example
+998bdf2 Issue #2737743 by anoopjohn, Mile23: node_revision_delete() not returning bool in node.module 33cd4e3 Issue #2746761 by gabesullice, Wim Leers: QueryArgsCacheContext does not support nested parameters 3a7b1e0 Issue #2734423 by dawehner, jibra
