@@ -113,3 +113,4 @@ ce31c4e Issue #2663270 by Berdir, marthinal, Wim Leers: MailManager::mail() shou
 bc084e1 Issue #2327941 by Wim Leers, Sonal.Sangale: Simplify in-place editor selection (Was: Refactor PlainTextEditor/WysiwygEditor/Editor in-place editors now that text fields no longer have configurable filteredness) b313cdc Issue #2705977 by heddn
 7bd926f Issue #2729211 by catch, Wim Leers: node_query_node_access_alter() should only add cacheability on GET/HEAD
 3af2717 Issue #2747945 by mayurjadhav, Beakerboy: Extra semicolons in QueryInterface example 8e74e38 Issue #2744383 by chishah92, Eric_A: drupal/core-dependency-injection is missing from the drupal/core replace section da9e933 Issue #2744881: jhodgdo
+da40012 Issue #2748467 by Sam152: Allow children of migration test bases to substitute their own fixtures 78bb26d Issue #2720813 by Xano, Wim Leers: DefaultPluginManager should expose its cacheability metadata
