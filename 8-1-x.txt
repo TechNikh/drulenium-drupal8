@@ -82,3 +82,4 @@ cb80d54 Issue #2729211 by catch, Wim Leers: node_query_node_access_alter() shoul
 998bdf2 Issue #2737743 by anoopjohn, Mile23: node_revision_delete() not returning bool in node.module 33cd4e3 Issue #2746761 by gabesullice, Wim Leers: QueryArgsCacheContext does not support nested parameters 3a7b1e0 Issue #2734423 by dawehner, jibra
 d13f93f Issue #2720077 by rajeshwari10, Vinay15, snehi, gaurav.pahuja, Sonal.Sangale, jhodgdon, joachim, klausi: EntityTypeBundleInfo::getBundleInfo() @return needs more detail 74a80df Issue #2667574 by dagmar: sqlite/Schema::introspectSchema should 
 0d0406b Issue #2706201 by edumarbest: Use $this->connection->query instead of db_query in \Drupal\Core\Database\Driver\sqlite\Schema::findTables
+9b91c8d Back to dev. 24e991b Updated version constant for 8.1.3. a87557f Drupal 8.1.3, SA-CORE-2016-002 by catch, dawehner, dsnopek, greggles, Plazik, stefan.r, xjm, klausi, mlhess
