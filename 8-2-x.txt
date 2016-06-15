@@ -117,3 +117,4 @@ da40012 Issue #2748467 by Sam152: Allow children of migration test bases to subs
 0d1fb1b Issue #2737743 by anoopjohn, Mile23: node_revision_delete() not returning bool in node.module 4cff4e2 Issue #2746761 by gabesullice, Wim Leers: QueryArgsCacheContext does not support nested parameters 587c514 Issue #2734423 by dawehner, jibra
 12a6963 Issue #2720077 by rajeshwari10, Vinay15, snehi, gaurav.pahuja, Sonal.Sangale, jhodgdon, joachim, klausi: EntityTypeBundleInfo::getBundleInfo() @return needs more detail 472f3a5 Issue #2667574 by dagmar: sqlite/Schema::introspectSchema should 
 f6ecafb Issue #2745911 by tim.plunkett, pwolanin: Block add links should respect destination
+87089ce SA-CORE-2016-002 by catch, dawehner, dsnopek, greggles, Plazik, stefan.r, xjm, klausi, mlhess
