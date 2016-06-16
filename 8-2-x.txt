@@ -121,3 +121,4 @@ f6ecafb Issue #2745911 by tim.plunkett, pwolanin: Block add links should respect
 c19740f Issue #2658438 by kristiaanvandeneynde, Torenware, dawehner, alexpott: Array valued 'extra' values generate invalid SQL in Views joins 262ff52 Issue #2631736 by quietone, jmuzz, Sam152, svendecabooter, benjy: Cckfield Plugins must distinguish
 f90b3df Issue #2575725 by alexpott, lokapujya, rajeshwari10, Torenware, andrewbelcher, pashupathi nath gajawada, jonathan1055: Uncaught PHP Exception when selecting too many PHPunit tests in UI 6b94c5c Issue #2719335 by iMiksu, markdorison, mattc321,
 58256f9 Issue #2736109 by klausi, dawehner: Convert web tests to browser tests for action module
+4b6d125 Issue #2653318 by Wim Leers, aneek, marthinal, dawehner: While in maintenance mode, REST routes respond with HTML instead of XML/JSON/…
