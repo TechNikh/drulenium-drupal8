@@ -118,3 +118,4 @@ da40012 Issue #2748467 by Sam152: Allow children of migration test bases to subs
 12a6963 Issue #2720077 by rajeshwari10, Vinay15, snehi, gaurav.pahuja, Sonal.Sangale, jhodgdon, joachim, klausi: EntityTypeBundleInfo::getBundleInfo() @return needs more detail 472f3a5 Issue #2667574 by dagmar: sqlite/Schema::introspectSchema should 
 f6ecafb Issue #2745911 by tim.plunkett, pwolanin: Block add links should respect destination
 87089ce SA-CORE-2016-002 by catch, dawehner, dsnopek, greggles, Plazik, stefan.r, xjm, klausi, mlhess
+c19740f Issue #2658438 by kristiaanvandeneynde, Torenware, dawehner, alexpott: Array valued 'extra' values generate invalid SQL in Views joins 262ff52 Issue #2631736 by quietone, jmuzz, Sam152, svendecabooter, benjy: Cckfield Plugins must distinguish
