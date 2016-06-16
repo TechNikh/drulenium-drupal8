@@ -119,3 +119,4 @@ da40012 Issue #2748467 by Sam152: Allow children of migration test bases to subs
 f6ecafb Issue #2745911 by tim.plunkett, pwolanin: Block add links should respect destination
 87089ce SA-CORE-2016-002 by catch, dawehner, dsnopek, greggles, Plazik, stefan.r, xjm, klausi, mlhess
 c19740f Issue #2658438 by kristiaanvandeneynde, Torenware, dawehner, alexpott: Array valued 'extra' values generate invalid SQL in Views joins 262ff52 Issue #2631736 by quietone, jmuzz, Sam152, svendecabooter, benjy: Cckfield Plugins must distinguish
+f90b3df Issue #2575725 by alexpott, lokapujya, rajeshwari10, Torenware, andrewbelcher, pashupathi nath gajawada, jonathan1055: Uncaught PHP Exception when selecting too many PHPunit tests in UI 6b94c5c Issue #2719335 by iMiksu, markdorison, mattc321,
