@@ -124,3 +124,4 @@ f90b3df Issue #2575725 by alexpott, lokapujya, rajeshwari10, Torenware, andrewbe
 4b6d125 Issue #2653318 by Wim Leers, aneek, marthinal, dawehner: While in maintenance mode, REST routes respond with HTML instead of XML/JSON/…
 671a41e Issue #2742211 by jsdix: Doxygen typo for $cache variable 0e0c6bc Issue #2692247 by alexpott, mikeryan: Pre-existing 'forum' content type prevents forum module installation 310145e Issue #2744357 by rajeshwari10, pashupathi nath gajawada, chi
 7665462 Issue #2685869 by Sam152, Jo Fitzgerald: d7 filter_format weights not migrating to d8 ea4a3fb Issue #2727523 by SKAUGHT: Bartik's '.header .demo-block' needlessly sets width 0565b28 Issue #2633170 by nesta_, Anishnirmal, aneek, joelpittet, am
+389d663 Issue #2749819 by Fabianx, dawehner: OptimizedPhpArrayDumper does not resolve references via aliases correctly
