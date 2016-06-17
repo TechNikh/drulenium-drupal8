@@ -122,3 +122,4 @@ c19740f Issue #2658438 by kristiaanvandeneynde, Torenware, dawehner, alexpott: A
 f90b3df Issue #2575725 by alexpott, lokapujya, rajeshwari10, Torenware, andrewbelcher, pashupathi nath gajawada, jonathan1055: Uncaught PHP Exception when selecting too many PHPunit tests in UI 6b94c5c Issue #2719335 by iMiksu, markdorison, mattc321,
 58256f9 Issue #2736109 by klausi, dawehner: Convert web tests to browser tests for action module
 4b6d125 Issue #2653318 by Wim Leers, aneek, marthinal, dawehner: While in maintenance mode, REST routes respond with HTML instead of XML/JSON/…
+671a41e Issue #2742211 by jsdix: Doxygen typo for $cache variable 0e0c6bc Issue #2692247 by alexpott, mikeryan: Pre-existing 'forum' content type prevents forum module installation 310145e Issue #2744357 by rajeshwari10, pashupathi nath gajawada, chi
