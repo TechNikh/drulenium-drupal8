@@ -88,3 +88,4 @@ d13f93f Issue #2720077 by rajeshwari10, Vinay15, snehi, gaurav.pahuja, Sonal.San
 f692cd0 Issue #2653318 by Wim Leers, aneek, marthinal, dawehner: While in maintenance mode, REST routes respond with HTML instead of XML/JSON/…
 c4b8088 Issue #2744357 by rajeshwari10, pashupathi nath gajawada, chishah92, Eric_A: drupal/core-* components Symfony requirements conflict with drupal/core
 34bb95f Issue #2663758 by Lendude, Chi, no_angel: Broken/missing handler on Custom Block Library view 76de5c4 Issue #2686651 by quietone: Same nid in two content types in d6_dump 7e2925c Issue #2744379 by juampynr: Fix typos in documentation of \Drup
+5bf26fa Issue #2749819 by Fabianx, dawehner: OptimizedPhpArrayDumper does not resolve references via aliases correctly fded439 Issue #2685869 by Sam152, Jo Fitzgerald: d7 filter_format weights not migrating to d8
