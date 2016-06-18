@@ -90,3 +90,4 @@ c4b8088 Issue #2744357 by rajeshwari10, pashupathi nath gajawada, chishah92, Eri
 34bb95f Issue #2663758 by Lendude, Chi, no_angel: Broken/missing handler on Custom Block Library view 76de5c4 Issue #2686651 by quietone: Same nid in two content types in d6_dump 7e2925c Issue #2744379 by juampynr: Fix typos in documentation of \Drup
 5bf26fa Issue #2749819 by Fabianx, dawehner: OptimizedPhpArrayDumper does not resolve references via aliases correctly fded439 Issue #2685869 by Sam152, Jo Fitzgerald: d7 filter_format weights not migrating to d8
 011d2f9 Issue #2462653 by chx, alexpott, daffie, neclimdul: Connection::getDriverClass doesn't support non-core drivers
+4baccae Issue #2742497 by klausi, naveenvalecha: Convert web tests to browser tests for ban module
