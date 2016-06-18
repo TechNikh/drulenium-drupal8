@@ -127,3 +127,4 @@ f90b3df Issue #2575725 by alexpott, lokapujya, rajeshwari10, Torenware, andrewbe
 389d663 Issue #2749819 by Fabianx, dawehner: OptimizedPhpArrayDumper does not resolve references via aliases correctly
 b7a2901 Issue #2462653 by chx, alexpott, daffie, neclimdul: Connection::getDriverClass doesn't support non-core drivers
 eac234e Issue #2742497 by klausi, naveenvalecha: Convert web tests to browser tests for ban module a142151 Issue #2735199 by klausi, naveenvalecha, dawehner, jhodgdon: Convert web tests to browser tests for help module
+9bb1c36 Issue #2723123 by agoradesign, milesw: Last imported timestamps not set in map tables 788d807 Issue #2691659 by Sam152, Jo Fitzgerald: d7 filter weights not migrating to d8 3d2798e Issue #2747723 by mayurjadhav, pashupathi nath gajawada, ccjj
