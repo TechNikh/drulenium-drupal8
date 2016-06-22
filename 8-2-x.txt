@@ -137,3 +137,4 @@ a02f143 Issue #2464053 by marcoscano, Fabianx: Remove @todo to Improve YamlFileL
 fa52948 Issue #2464077 by webflo, s_leu, dawehner, Lendude: Menu link overrides are lost after cache rebuild
 729f65a Issue #2724813 by alexpott, dawehner, jibran, catch: ToolbarIntegrationTest fails randomly on postgres
 c2b2864 Issue #2745953 by dawehner, tim.plunkett, Wim Leers: AjaxBasePageNegotiator should not require _theme: ajax_base_page to be specified
+3ed6e6b Issue #2702545 by ifrik, NitinSP, sugaroverflow, snehi, aburrows, catch: Edit the Inline Form Error module description
