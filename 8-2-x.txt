@@ -135,3 +135,4 @@ a02f143 Issue #2464053 by marcoscano, Fabianx: Remove @todo to Improve YamlFileL
 4965a80 Issue #2752645 by sidharth_k: Update masterminds/html5 dependency in composer.lock 26cf55b Issue #1377740 by jbrown, bvanmeurs, catch, anrikun, Jorrit, rpayanm, mvc, mikeytown2, chx: file_unmanaged_move() should issue rename() where possible 
 8ed14e0 Issue #2728789 by tlyngej: Wrong @see link in CckFieldPluginBase docblock 5dd8636 Issue #2711101 by rocketeerbkw: Migrated menu blocks aren't configurable [d7] 58c3b96 Issue #2752315 by pfrenssen, RoySegall: Fix visibility of AssertLegacyTrai
 fa52948 Issue #2464077 by webflo, s_leu, dawehner, Lendude: Menu link overrides are lost after cache rebuild
+729f65a Issue #2724813 by alexpott, dawehner, jibran, catch: ToolbarIntegrationTest fails randomly on postgres
