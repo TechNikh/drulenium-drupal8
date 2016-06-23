@@ -143,3 +143,4 @@ c2b2864 Issue #2745953 by dawehner, tim.plunkett, Wim Leers: AjaxBasePageNegotia
 3993ef3 Issue #2723115 by Stefan Freudenberg, mayurjadhav: Count cache configuration does not work as expected 7844d04 Issue #2724819 by SKAUGHT, pwolanin, tim.plunkett, tkoleary, tedbow, webchick, yoroy, Wim Leers, brantwynn, Bojhan: Create experime
 b3d0a73 Issue #2419825 by marthinal, Wim Leers, bigjim, dawehner, klausi: Make serialization_class optional
 551dcc0 Issue #2723961 by jo.st, rajeshwari10, andrewmacpherson: Broken aria-labelledby ID reference in menu block and breadcrumb templates
+d2cd3e6 Issue #2752709 by ChandeepKhosa, kamalrajsahu21, pashupathi nath gajawada, ifrik, Gábor Hojtsy, Haza, marcvangend: "Add mode" instead of "Add new mode" f86f399 Issue #2749261 by mohit_aghera, ifrik: "Add view" instead of "Add new view"
