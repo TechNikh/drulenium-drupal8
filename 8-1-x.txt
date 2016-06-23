@@ -103,3 +103,4 @@ b1e3676 Issue #2724813 by alexpott, dawehner, jibran, catch: ToolbarIntegrationT
 793b7f1 Issue #2648956 by lokapujya, dawehner, Lendude, sidharrell, jibran, catch, alexpott: Editing a view leaves old keys hanging, results in invalid schema 5a7797e Issue #1377740: revert unintentional theme.inc changes.
 b0bc0c5 Issue #2723115 by Stefan Freudenberg, mayurjadhav: Count cache configuration does not work as expected ac3a539 Issue #2736109 by klausi, Eric_A, dawehner: Convert web tests to browser tests for action module
 102225a Issue #2708735 by amateescu, dawehner, markdorison: Creating a draft removes published node from taxonomy view
+2660334 Issue #2742103 by ekes, dawehner, amateescu: SqlContentEntityStorageSchema::getDedicatedTableSchema() ignores 'unique keys' from the schema definition
