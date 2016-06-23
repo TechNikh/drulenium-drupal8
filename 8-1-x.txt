@@ -102,3 +102,4 @@ b1e3676 Issue #2724813 by alexpott, dawehner, jibran, catch: ToolbarIntegrationT
 b1e3676 Issue #2724813 by alexpott, dawehner, jibran, catch: ToolbarIntegrationTest fails randomly on postgres 495a46a Issue #2464077 by webflo, s_leu, dawehner, Lendude: Menu link overrides are lost after cache rebuild 5c46644 Issue #2728789 by tlyn
 793b7f1 Issue #2648956 by lokapujya, dawehner, Lendude, sidharrell, jibran, catch, alexpott: Editing a view leaves old keys hanging, results in invalid schema 5a7797e Issue #1377740: revert unintentional theme.inc changes.
 b0bc0c5 Issue #2723115 by Stefan Freudenberg, mayurjadhav: Count cache configuration does not work as expected ac3a539 Issue #2736109 by klausi, Eric_A, dawehner: Convert web tests to browser tests for action module
+102225a Issue #2708735 by amateescu, dawehner, markdorison: Creating a draft removes published node from taxonomy view
