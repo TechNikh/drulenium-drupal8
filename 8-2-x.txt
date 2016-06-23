@@ -139,3 +139,4 @@ fa52948 Issue #2464077 by webflo, s_leu, dawehner, Lendude: Menu link overrides 
 c2b2864 Issue #2745953 by dawehner, tim.plunkett, Wim Leers: AjaxBasePageNegotiator should not require _theme: ajax_base_page to be specified
 3ed6e6b Issue #2702545 by ifrik, NitinSP, sugaroverflow, snehi, aburrows, catch: Edit the Inline Form Error module description
 1da4d15 Issue #2447803 by amateescu, Fabianx, Berdir: Use FileCache for caching discovered annotations
+97464a9 Issue #2648956 by lokapujya, dawehner, Lendude, sidharrell, jibran, catch, alexpott: Editing a view leaves old keys hanging, results in invalid schema 032d127 Issue #1377740: revert unintentional theme.inc changes.
