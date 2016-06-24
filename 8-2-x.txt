@@ -147,3 +147,4 @@ d2cd3e6 Issue #2752709 by ChandeepKhosa, kamalrajsahu21, pashupathi nath gajawad
 c2217cd Issue #2708735 by amateescu, dawehner, markdorison: Creating a draft removes published node from taxonomy view
 60a1752 Issue #2742103 by ekes, dawehner, amateescu: SqlContentEntityStorageSchema::getDedicatedTableSchema() ignores 'unique keys' from the schema definition
 3e07700 Issue #2753049 by pguillard, pashupathi nath gajawada, ChandeepKhosa, ifrik: Change "Save changes" to "Save"
+1836688 Issue #2753905 by Lendude: Add javascript testing for the Views creation wizard f84b2a1 Issue #2751351 by claudiu.cristea: Remove code duplication from LocalReadOnlyStream 705b75c Issue #2676552 by justAChris, mbovan, chr.fritsch, gaborpeter,
