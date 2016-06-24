@@ -104,3 +104,4 @@ b1e3676 Issue #2724813 by alexpott, dawehner, jibran, catch: ToolbarIntegrationT
 b0bc0c5 Issue #2723115 by Stefan Freudenberg, mayurjadhav: Count cache configuration does not work as expected ac3a539 Issue #2736109 by klausi, Eric_A, dawehner: Convert web tests to browser tests for action module
 102225a Issue #2708735 by amateescu, dawehner, markdorison: Creating a draft removes published node from taxonomy view
 2660334 Issue #2742103 by ekes, dawehner, amateescu: SqlContentEntityStorageSchema::getDedicatedTableSchema() ignores 'unique keys' from the schema definition
+bbcd3bd Issue #2676552 by justAChris, mbovan, chr.fritsch, gaborpeter, mariancalinro, alexpott, Berdir: File usage view breaks if an entity uses a file that has no canonical link template
