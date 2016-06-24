@@ -106,3 +106,4 @@ b0bc0c5 Issue #2723115 by Stefan Freudenberg, mayurjadhav: Count cache configura
 2660334 Issue #2742103 by ekes, dawehner, amateescu: SqlContentEntityStorageSchema::getDedicatedTableSchema() ignores 'unique keys' from the schema definition
 bbcd3bd Issue #2676552 by justAChris, mbovan, chr.fritsch, gaborpeter, mariancalinro, alexpott, Berdir: File usage view breaks if an entity uses a file that has no canonical link template
 89ae2a0 Issue #2753905 by Lendude: Add javascript testing for the Views creation wizard
+43ac93d Issue #2754541 by webflo, YesCT: Fix folder location in BrowserTestBase docs 5e942cf Issue #2675010 by hchonov: Cloned entity will point to the same field objects if the clone was created after an entity translation has been initialized
