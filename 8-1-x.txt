@@ -108,3 +108,4 @@ bbcd3bd Issue #2676552 by justAChris, mbovan, chr.fritsch, gaborpeter, mariancal
 89ae2a0 Issue #2753905 by Lendude: Add javascript testing for the Views creation wizard
 43ac93d Issue #2754541 by webflo, YesCT: Fix folder location in BrowserTestBase docs 5e942cf Issue #2675010 by hchonov: Cloned entity will point to the same field objects if the clone was created after an entity translation has been initialized
 381321e Issue #1390580 by mohit_aghera, heliogabal, Chernous_dn, andrewmacpherson, mgifford, droplet, Everett Zufelt: Add comments for skip link and main-content anchor in templates cd87bb1 Issue #2684213 by amateescu, larowlan, josephdpurcell, daweh
+492728a Issue #2499239 by Mile23, neclimdul, alexpott, jhedstrom, Mixologic, Crell, Xano, dawehner: Use test suite classes to discover different test types under phpunit, allow contrib harmony with run-tests
