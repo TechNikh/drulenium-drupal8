@@ -110,3 +110,4 @@ bbcd3bd Issue #2676552 by justAChris, mbovan, chr.fritsch, gaborpeter, mariancal
 381321e Issue #1390580 by mohit_aghera, heliogabal, Chernous_dn, andrewmacpherson, mgifford, droplet, Everett Zufelt: Add comments for skip link and main-content anchor in templates cd87bb1 Issue #2684213 by amateescu, larowlan, josephdpurcell, daweh
 492728a Issue #2499239 by Mile23, neclimdul, alexpott, jhedstrom, Mixologic, Crell, Xano, dawehner: Use test suite classes to discover different test types under phpunit, allow contrib harmony with run-tests
 2116b91 Issue #2384459 by mikran, mbovan, slashrsm, chx, Berdir, yched: Add entity query condition for delta in EFQ
+3e5ef21 Issue #2700581 by mikeryan, benjy, heddn, vasi: Destination bundle set in destination plugin, not in process
