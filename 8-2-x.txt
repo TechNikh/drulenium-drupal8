@@ -157,3 +157,4 @@ a3947a9 Issue #2700581 by mikeryan, benjy, heddn, vasi: Destination bundle set i
 d9bf408 Issue #2513402 by pixelmord, cilefen, prajaankit, jcnventura, webchick, nicrodgers, Bojhan, g.oechsler, xjm, ifrik, Wim Leers: Any time a user creates a thing and saves, display a link to the thing created in the status 9e73da7 Issue #2752127
 eac023b Issue #2729643 by Mile23, catch: Create LoggerChannelTrait
 c009442 Issue #2751395 by tstoeckler, dawehner: Rewrite EntityUrlTest 1dc4ba8 Issue #2698141 by TravisCarden, ChuChuNaKu, effulgentsia: Empty Twig {% trans %} tag causes unhelpful fatal exception
+0bbcdf4 Issue #2687003 by alexpott, mikeryan, eojthebrave, xjm, benjy, quietone, catch: Update migrate.api.php to reflect the current API
