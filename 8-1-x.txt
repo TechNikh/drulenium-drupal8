@@ -112,3 +112,4 @@ bbcd3bd Issue #2676552 by justAChris, mbovan, chr.fritsch, gaborpeter, mariancal
 2116b91 Issue #2384459 by mikran, mbovan, slashrsm, chx, Berdir, yched: Add entity query condition for delta in EFQ
 3e5ef21 Issue #2700581 by mikeryan, benjy, heddn, vasi: Destination bundle set in destination plugin, not in process
 cc54a9d Issue #2752127 by jalpesh, Eric_A: drupal/core-assertion is missing from the drupal/core replace section
+792d444 Issue #2735199 by klausi, naveenvalecha, Eric_A, dawehner, jhodgdon: Convert web tests to browser tests for help module
