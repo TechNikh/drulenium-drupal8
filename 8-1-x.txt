@@ -116,3 +116,4 @@ cc54a9d Issue #2752127 by jalpesh, Eric_A: drupal/core-assertion is missing from
 c244dc4 Issue #2751395 by tstoeckler, dawehner: Rewrite EntityUrlTest
 e5a21ea Issue #2687003 by alexpott, mikeryan, eojthebrave, xjm, benjy, quietone, catch: Update migrate.api.php to reflect the current API
 7742f48 Issue #2751583 by tstoeckler: Entity::urlRouteParameters() calls getRevisionId() for non-revisionable entities 013d35c Issue #2751121 by tstoeckler, kiamlaluno: class StatusMessages documentation page contains incorrect markup b68e5ba Issue #
+698ff30 Issue #2698083 by quietone, Sam152, Mac_Weber, vasi: D6->D8: Migrating links without leading slash leads to fatal error 574487f Issue #2664530 by Lendude: Views Combined fields filter with "Contains any word" or "Contains all words" operator 
