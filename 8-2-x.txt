@@ -159,3 +159,4 @@ eac023b Issue #2729643 by Mile23, catch: Create LoggerChannelTrait
 c009442 Issue #2751395 by tstoeckler, dawehner: Rewrite EntityUrlTest 1dc4ba8 Issue #2698141 by TravisCarden, ChuChuNaKu, effulgentsia: Empty Twig {% trans %} tag causes unhelpful fatal exception
 0bbcdf4 Issue #2687003 by alexpott, mikeryan, eojthebrave, xjm, benjy, quietone, catch: Update migrate.api.php to reflect the current API
 8ce4b6b Issue #2751583 by tstoeckler: Entity::urlRouteParameters() calls getRevisionId() for non-revisionable entities 90b986b Issue #2751121 by tstoeckler, kiamlaluno: class StatusMessages documentation page contains incorrect markup b6c1866 Issue #
+d8d92b5 Issue #2698083 by quietone, Sam152, Mac_Weber, vasi: D6->D8: Migrating links without leading slash leads to fatal error a64ea9d Issue #2664530 by Lendude: Views Combined fields filter with "Contains any word" or "Contains all words" operator 
