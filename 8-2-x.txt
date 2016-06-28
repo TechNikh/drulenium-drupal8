@@ -164,3 +164,4 @@ d8d92b5 Issue #2698083 by quietone, Sam152, Mac_Weber, vasi: D6->D8: Migrating l
 68649cf Issue #2471010 by pguillard, Arez, Oleksiy, ifrik, yoroy, andypost, alexpott, Bojhan, jbguerraz, brahmjeet789, jaimeguzman, drubb, DuaelFr, lrmeeske, Gábor Hojtsy: Label for Content and User bulk operations does not fit the action
 bb2efca Revert "Issue #2664530 by Lendude: Views Combined fields filter with "Contains any word" or "Contains all words" operator results in an incorrect SQL query and a fatal error"
 2125663 Issue #2755667 by marthinal: Fix typo error in WebTestBase
+85bc69d Issue #2353611 by larowlan, dawehner, sime, alexpott, Wim Leers, tstoeckler: Make it possible to link to an entity by UUID c9fb29d Issue #2750941 by dawehner, klausi, jibran: Additional BC assertions from WebTestBase to BrowserTestBase
