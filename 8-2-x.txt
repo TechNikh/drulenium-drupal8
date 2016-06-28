@@ -167,3 +167,4 @@ bb2efca Revert "Issue #2664530 by Lendude: Views Combined fields filter with "Co
 85bc69d Issue #2353611 by larowlan, dawehner, sime, alexpott, Wim Leers, tstoeckler: Make it possible to link to an entity by UUID c9fb29d Issue #2750941 by dawehner, klausi, jibran: Additional BC assertions from WebTestBase to BrowserTestBase
 4520b25 Issue #2756311 by kamalrajsahu21, chgasparoto: MigrationStorage is obsolete 0f4379a Issue #2754477 by alexpott, jonathan1055, mr.baileys, swentel: Unexpected config entity delete due to dependency calculations
 ea6a8c3 Issue #2757139 by pfrenssen: Fix visibility of AssertLegacyTrait::buildXPathQuery()
+d430fc9 Issue #2756209: Add the new Drupal 7 co-maintainers to MAINTAINERS.txt
