@@ -165,3 +165,4 @@ d8d92b5 Issue #2698083 by quietone, Sam152, Mac_Weber, vasi: D6->D8: Migrating l
 bb2efca Revert "Issue #2664530 by Lendude: Views Combined fields filter with "Contains any word" or "Contains all words" operator results in an incorrect SQL query and a fatal error"
 2125663 Issue #2755667 by marthinal: Fix typo error in WebTestBase
 85bc69d Issue #2353611 by larowlan, dawehner, sime, alexpott, Wim Leers, tstoeckler: Make it possible to link to an entity by UUID c9fb29d Issue #2750941 by dawehner, klausi, jibran: Additional BC assertions from WebTestBase to BrowserTestBase
+4520b25 Issue #2756311 by kamalrajsahu21, chgasparoto: MigrationStorage is obsolete 0f4379a Issue #2754477 by alexpott, jonathan1055, mr.baileys, swentel: Unexpected config entity delete due to dependency calculations
