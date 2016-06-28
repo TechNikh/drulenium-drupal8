@@ -120,3 +120,4 @@ e5a21ea Issue #2687003 by alexpott, mikeryan, eojthebrave, xjm, benjy, quietone,
 134e02b Issue #2657110 by claudiu.cristea: ResponsiveImageFormatter should define dependencies to responsive image style entity b36b4f4 Issue #2752315 by Eric_A, pfrenssen, RoySegall: Fix visibility of AssertLegacyTrait::assertNoEscaped() f300d0e Rev
 fa3faf2 Revert "Issue #2664530 by Lendude: Views Combined fields filter with "Contains any word" or "Contains all words" operator results in an incorrect SQL query and a fatal error"
 e0e46f4 Issue #2755667 by marthinal: Fix typo error in WebTestBase
+8946087 Issue #2750941 by dawehner, klausi, jibran: Additional BC assertions from WebTestBase to BrowserTestBase
