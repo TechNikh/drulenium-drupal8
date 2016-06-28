@@ -122,3 +122,4 @@ fa3faf2 Revert "Issue #2664530 by Lendude: Views Combined fields filter with "Co
 e0e46f4 Issue #2755667 by marthinal: Fix typo error in WebTestBase
 8946087 Issue #2750941 by dawehner, klausi, jibran: Additional BC assertions from WebTestBase to BrowserTestBase
 84c3578 Issue #2754477 by alexpott, jonathan1055, mr.baileys, swentel: Unexpected config entity delete due to dependency calculations
+cf7aeeb Issue #2757139 by pfrenssen: Fix visibility of AssertLegacyTrait::buildXPathQuery()
