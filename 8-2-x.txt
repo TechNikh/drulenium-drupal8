@@ -169,3 +169,4 @@ bb2efca Revert "Issue #2664530 by Lendude: Views Combined fields filter with "Co
 ea6a8c3 Issue #2757139 by pfrenssen: Fix visibility of AssertLegacyTrait::buildXPathQuery()
 d430fc9 Issue #2756209: Add the new Drupal 7 co-maintainers to MAINTAINERS.txt
 9a0f369 Issue #2686931 by Mirroar: system_requirements should not call Renderer::render() 63b7ded Issue #2744421 by andypost, Wim Leers: QueryArgsCacheContext::getContext() may return NULL, violates the interface d97b413 Issue #2756527 by chgasparoto
+57ad987 Issue #2756307 by Fabianx, dawehner: Provide a setting to disable FileCache completely for unit tests
