@@ -126,3 +126,4 @@ cf7aeeb Issue #2757139 by pfrenssen: Fix visibility of AssertLegacyTrait::buildX
 ac63d0e Issue #2756209: Add the new Drupal 7 co-maintainers to MAINTAINERS.txt
 60ea4f1 Issue #2686931 by Mirroar: system_requirements should not call Renderer::render() 0a27b6c Issue #2744421 by andypost, Wim Leers: QueryArgsCacheContext::getContext() may return NULL, violates the interface
 d78bf2a Issue #2757427 by alexpott, Xano: Array was modified by the user comparison function in ConfigDependencyManager::getDependentEntities()
+f9cd621 Issue #2698811 by danmuzyka, Wim Leers, jhedstrom, Fabianx: BigPipe unnecessarily renders and sends multiple-occurrence placeholders multiple times when using JS — can cause JS errors
