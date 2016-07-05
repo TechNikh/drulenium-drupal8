@@ -174,3 +174,4 @@ d430fc9 Issue #2756209: Add the new Drupal 7 co-maintainers to MAINTAINERS.txt
 6309f94 Issue #2742599 by Mile23: Fix 'Drupal.WhiteSpace.ObjectOperatorSpacing' coding standard ee26b4b Issue #2409591 by pguillard, mayurjadhav, Artusamak, marcoscano, chris_h, ifrik, amateescu: Increase discoverability of view modes 5e86905 Issue #
 cc6885b Issue #2755843 by alexpott, xjm: The order in which config is saved affects dependency calculations 260c6ee Issue #2675648 by Bès, dawehner, Haza, chx: Code after hook_link_alter() invocation does not use the altered data
 a1b02ad Issue #2744639 by vasi, mikeryan, boromino, stevector: Taxonomy term hierarchy migration incomplete eadde8d Issue #2605594 by daffie, pukku, catch, yngens2: Change minimum required sqlite version to 3.7.11
+fdb0db8 Issue #2754003 by Berdir, Wim Leers: Move more cache items from the default to the bootstrap or discovery bin
