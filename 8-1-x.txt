@@ -128,3 +128,4 @@ ac63d0e Issue #2756209: Add the new Drupal 7 co-maintainers to MAINTAINERS.txt
 d78bf2a Issue #2757427 by alexpott, Xano: Array was modified by the user comparison function in ConfigDependencyManager::getDependentEntities()
 f9cd621 Issue #2698811 by danmuzyka, Wim Leers, jhedstrom, Fabianx: BigPipe unnecessarily renders and sends multiple-occurrence placeholders multiple times when using JS — can cause JS errors
 d8688fa Issue #2675648 by Bès, Haza, dawehner, chx: Code after hook_link_alter() invocation does not use the altered data
+3280164 Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched, droplet, amateescu: Changing cardinality lower than highest existing delta causes data loss upon save 47df378 Issue #2744639 by vasi, mikeryan, boromino, stevector: Taxonom
