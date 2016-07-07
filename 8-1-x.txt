@@ -130,3 +130,4 @@ f9cd621 Issue #2698811 by danmuzyka, Wim Leers, jhedstrom, Fabianx: BigPipe unne
 d8688fa Issue #2675648 by Bès, Haza, dawehner, chx: Code after hook_link_alter() invocation does not use the altered data
 3280164 Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched, droplet, amateescu: Changing cardinality lower than highest existing delta causes data loss upon save 47df378 Issue #2744639 by vasi, mikeryan, boromino, stevector: Taxonom
 c60d24e Back to dev.
+31d2fbf Back to dev. 8bd1324 Drupal 8.1.5
