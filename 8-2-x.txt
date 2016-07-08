@@ -177,3 +177,4 @@ a1b02ad Issue #2744639 by vasi, mikeryan, boromino, stevector: Taxonomy term hie
 fdb0db8 Issue #2754003 by Berdir, Wim Leers: Move more cache items from the default to the bootstrap or discovery bin
 fb8cdd4 Issue #2568247 by heddn, anavarre, gapple, mstrelan, Cottser, dawehner, joelpittet, alexpott, hoff331: Remove the Twig C extension requirement as it needs to be proven it's still relevant for modern PHP versions
 46efe01 Issue #2760585 by Ramdas Gaikar, cilefen, tulvit: Typo in comments in Classy theme's page.html.twig 4e9ed76 Issue #2738891 by martin107, rashid_786, Wim Leers, remydenton: Instructions for adding CKEditor stylesheets are outdated
+5c4f93f Issue #2761865 by catch, alexpott: Update from 8.13 to 8.14 breaks site seemingly permanently
