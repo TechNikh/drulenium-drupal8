@@ -133,3 +133,4 @@ c60d24e Back to dev.
 31d2fbf Back to dev. 8bd1324 Drupal 8.1.5
 ef415cf Issue #2760585 by Ramdas Gaikar, cilefen, tulvit: Typo in comments in Classy theme's page.html.twig 619cbc3 Issue #2738891 by martin107, rashid_786, Wim Leers, remydenton: Instructions for adding CKEditor stylesheets are outdated
 ab53171 Issue #2762549 by alexpott: Part 2: Array was modified by the user comparison function in ConfigDependencyManager::getDependentEntities() 01e7deb Issue #2761865 by catch, alexpott: Update from 8.13 to 8.14 breaks site seemingly permanently
+5c01c88 Issue #2568247 by heddn, anavarre, gapple, mstrelan, Cottser, dawehner, joelpittet, alexpott, hoff331: Remove the Twig C extension requirement as it needs to be proven it's still relevant for modern PHP versions
