@@ -178,3 +178,4 @@ fdb0db8 Issue #2754003 by Berdir, Wim Leers: Move more cache items from the defa
 fb8cdd4 Issue #2568247 by heddn, anavarre, gapple, mstrelan, Cottser, dawehner, joelpittet, alexpott, hoff331: Remove the Twig C extension requirement as it needs to be proven it's still relevant for modern PHP versions
 46efe01 Issue #2760585 by Ramdas Gaikar, cilefen, tulvit: Typo in comments in Classy theme's page.html.twig 4e9ed76 Issue #2738891 by martin107, rashid_786, Wim Leers, remydenton: Instructions for adding CKEditor stylesheets are outdated
 5c4f93f Issue #2761865 by catch, alexpott: Update from 8.13 to 8.14 breaks site seemingly permanently
+895c204 Revert "Issue #2353611 by larowlan, dawehner, sime, alexpott, Wim Leers, tstoeckler: Make it possible to link to an entity by UUID" 2c3d5ec Issue #2762549 by alexpott: Part 2: Array was modified by the user comparison function in ConfigDepend
