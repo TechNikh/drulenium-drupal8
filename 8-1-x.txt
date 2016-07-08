@@ -131,3 +131,4 @@ d8688fa Issue #2675648 by Bès, Haza, dawehner, chx: Code after hook_link_alter(
 3280164 Issue #1266748 by swentel, Berdir, jcnventura, arlinsandbulte, yched, droplet, amateescu: Changing cardinality lower than highest existing delta causes data loss upon save 47df378 Issue #2744639 by vasi, mikeryan, boromino, stevector: Taxonom
 c60d24e Back to dev.
 31d2fbf Back to dev. 8bd1324 Drupal 8.1.5
+ef415cf Issue #2760585 by Ramdas Gaikar, cilefen, tulvit: Typo in comments in Classy theme's page.html.twig 619cbc3 Issue #2738891 by martin107, rashid_786, Wim Leers, remydenton: Instructions for adding CKEditor stylesheets are outdated
