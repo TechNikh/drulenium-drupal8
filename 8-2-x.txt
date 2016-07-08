@@ -176,3 +176,4 @@ cc6885b Issue #2755843 by alexpott, xjm: The order in which config is saved affe
 a1b02ad Issue #2744639 by vasi, mikeryan, boromino, stevector: Taxonomy term hierarchy migration incomplete eadde8d Issue #2605594 by daffie, pukku, catch, yngens2: Change minimum required sqlite version to 3.7.11
 fdb0db8 Issue #2754003 by Berdir, Wim Leers: Move more cache items from the default to the bootstrap or discovery bin
 fb8cdd4 Issue #2568247 by heddn, anavarre, gapple, mstrelan, Cottser, dawehner, joelpittet, alexpott, hoff331: Remove the Twig C extension requirement as it needs to be proven it's still relevant for modern PHP versions
+46efe01 Issue #2760585 by Ramdas Gaikar, cilefen, tulvit: Typo in comments in Classy theme's page.html.twig 4e9ed76 Issue #2738891 by martin107, rashid_786, Wim Leers, remydenton: Instructions for adding CKEditor stylesheets are outdated
