@@ -136,3 +136,4 @@ ab53171 Issue #2762549 by alexpott: Part 2: Array was modified by the user compa
 5c01c88 Issue #2568247 by heddn, anavarre, gapple, mstrelan, Cottser, dawehner, joelpittet, alexpott, hoff331: Remove the Twig C extension requirement as it needs to be proven it's still relevant for modern PHP versions
 d8c7333 Back to dev b101f90 8.1.6
 4d9e857 Issue #2762347: config_test_no_status has wrong edit route
+7aebc48 Issue #2595535 by tstoeckler, swentel, vijaycs85, alvar0hurtad0, esolitos: Show helpful message (do not fatal!) when configuration files have different source language codes and cannot be translated
