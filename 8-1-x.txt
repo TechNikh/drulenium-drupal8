@@ -138,3 +138,4 @@ d8c7333 Back to dev b101f90 8.1.6
 4d9e857 Issue #2762347: config_test_no_status has wrong edit route
 7aebc48 Issue #2595535 by tstoeckler, swentel, vijaycs85, alvar0hurtad0, esolitos: Show helpful message (do not fatal!) when configuration files have different source language codes and cannot be translated
 3857af8 Issue #2761451 by Wim Leers: Document bootstrap cache bin's purpose
+aca5508 Issue #2734091 by Sam152: Remove tests specific waitForAjaxToFinish methods, replace with assertSession()->assertWaitOnAjaxRequest
