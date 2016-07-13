@@ -140,3 +140,4 @@ d8c7333 Back to dev b101f90 8.1.6
 3857af8 Issue #2761451 by Wim Leers: Document bootstrap cache bin's purpose
 aca5508 Issue #2734091 by Sam152: Remove tests specific waitForAjaxToFinish methods, replace with assertSession()->assertWaitOnAjaxRequest
 2bf9423 Issue #2764687 by alexpott: IpAddressBlockingTest is failing on DrupalCI
+f7fed13 Issue #2732111 by damiankloip, Lendude, dawehner: Reset button doesn't work and never gets removed on AJAX enabled views d540090 Issue #2705809 by juampynr, dawehner, damiankloip, lahoosascoots: Queue garbage collection is not correctly run o
