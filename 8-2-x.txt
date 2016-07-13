@@ -187,3 +187,4 @@ e17761e Issue #2761451 by Wim Leers: Document bootstrap cache bin's purpose ee76
 f6eb757 Issue #2734091 by Sam152: Remove tests specific waitForAjaxToFinish methods, replace with assertSession()->assertWaitOnAjaxRequest ec4bfd9 Issue #2761409 by timmillwood, hgoto: The latest revision isn't always the current revision
 77bb3d1 Issue #2764687 by alexpott: IpAddressBlockingTest is failing on DrupalCI
 cd248df Issue #2732111 by damiankloip, Lendude, dawehner: Reset button doesn't work and never gets removed on AJAX enabled views b686f05 Issue #2705809 by juampynr, dawehner, damiankloip, lahoosascoots: Queue garbage collection is not correctly run o
+b430fe2 Issue #2434567 by marcoscano, daffie, dawehner: Create PHPUnit tests for Database::convertDbUrlToConnectionInfo() and Database::getConnectionInfoAsUrl()
