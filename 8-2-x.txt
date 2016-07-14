@@ -188,3 +188,4 @@ f6eb757 Issue #2734091 by Sam152: Remove tests specific waitForAjaxToFinish meth
 77bb3d1 Issue #2764687 by alexpott: IpAddressBlockingTest is failing on DrupalCI
 cd248df Issue #2732111 by damiankloip, Lendude, dawehner: Reset button doesn't work and never gets removed on AJAX enabled views b686f05 Issue #2705809 by juampynr, dawehner, damiankloip, lahoosascoots: Queue garbage collection is not correctly run o
 b430fe2 Issue #2434567 by marcoscano, daffie, dawehner: Create PHPUnit tests for Database::convertDbUrlToConnectionInfo() and Database::getConnectionInfoAsUrl()
+89815ba Issue #2560795 by mikeryan, phenaproxima, penyaskito, willwh, benjy: Source plugins have a hidden dependency on migrate_drupal 05a3cb7 Issue #2752591 by quietone, mallezie, dawehner, mikeryan: Add substr process plugin
