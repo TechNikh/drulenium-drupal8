@@ -144,3 +144,4 @@ f7fed13 Issue #2732111 by damiankloip, Lendude, dawehner: Reset button doesn't w
 a8e6171 Issue #2434567 by marcoscano, daffie, dawehner: Create PHPUnit tests for Database::convertDbUrlToConnectionInfo() and Database::getConnectionInfoAsUrl()
 a72245a Issue #2752591 by quietone, mallezie, dawehner, mikeryan: Add substr process plugin
 169c290 Issue #2225775 by vasi, quietone, phenaproxima, chx, penyaskito, mikeryan, esclapes, vprocessor, steinmb, Gábor Hojtsy, Marc Angles, bwinett: Migrate Drupal 6 core node translation to Drupal 8 e98b14a Issue #2560795 by mikeryan, phenaproxima
+3a36bdb Revert "Issue #2560795 by mikeryan, phenaproxima, penyaskito, willwh, benjy: Source plugins have a hidden dependency on migrate_drupal"
