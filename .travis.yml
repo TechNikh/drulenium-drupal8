@@ -49,8 +49,8 @@ script:
   - drush site-install testing --db-url=$DB_URL --site-name=my-site --yes
   - drush dl drulenium -y
   - drush en drulenium drulenium_local_selenium -y
-  - drush en drulenium_tests -y
-  - drush en libraries -y
+  #- drush en drulenium_tests -y
+  #- drush en libraries -y
   - drush vr-download-webdriver # To download selenium webdriver library
   - drush vset --yes drulenium_vr_config_server_opt 'drulenium_local_selenium'
   - drush vset --yes drulenium_vr_config_image_server_opt 'local'
