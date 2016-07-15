@@ -191,3 +191,4 @@ b430fe2 Issue #2434567 by marcoscano, daffie, dawehner: Create PHPUnit tests for
 89815ba Issue #2560795 by mikeryan, phenaproxima, penyaskito, willwh, benjy: Source plugins have a hidden dependency on migrate_drupal 05a3cb7 Issue #2752591 by quietone, mallezie, dawehner, mikeryan: Add substr process plugin
 1fa26af Issue #2225775 by vasi, quietone, phenaproxima, chx, penyaskito, mikeryan, esclapes, vprocessor, steinmb, Gábor Hojtsy, Marc Angles, bwinett: Migrate Drupal 6 core node translation to Drupal 8
 fca71fa Revert "Issue #2560795 by mikeryan, phenaproxima, penyaskito, willwh, benjy: Source plugins have a hidden dependency on migrate_drupal"
+5694189 Issue #2739290 by jhedstrom, mpdonadio: UTC+12 is broken on date only fields
