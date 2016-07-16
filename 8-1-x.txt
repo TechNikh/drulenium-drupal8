@@ -148,3 +148,4 @@ a72245a Issue #2752591 by quietone, mallezie, dawehner, mikeryan: Add substr pro
 f9ef1f6 Issue #2763539 by felribeiro: Bug in doxygen for adding headers to a response via render #attached
 e7a35bd Issue #1738622 by Mile23, Cottser, jhodgdon: Documentation cleanup for UUID API
 0dc32d7 Issue #2311219 by Mile23, a_thakur, vadim.hirbu, undertext, xjm, cilefen, damiankloip, daffie: Remove references to function user_format_name() from documentation a79c5df Issue #2767503 by klausi: MigrateAggregatorStubTest typo in test namesp
+2144d10 Issue #2751923 by mohit_aghera, lhuria94, Jeff Burnz, joelpittet: Incorrect documentation, param and code example for hook_element_info_alter() in theme.inc
