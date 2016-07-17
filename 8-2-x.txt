@@ -195,3 +195,4 @@ fca71fa Revert "Issue #2560795 by mikeryan, phenaproxima, penyaskito, willwh, be
 52cd7e9 Issue #2763539 by felribeiro: Bug in doxygen for adding headers to a response via render #attached
 2411a13 Issue #1738622 by Mile23, Cottser, jhodgdon: Documentation cleanup for UUID API
 8e04ab6 Issue #2751923 by mohit_aghera, lhuria94, Jeff Burnz, joelpittet: Incorrect documentation, param and code example for hook_element_info_alter() in theme.inc 5250997 Issue #2311219 by Mile23, a_thakur, vadim.hirbu, undertext, xjm, cilefen, dam
+70a2d8c Issue #2491033 by daffie, mgifford, dawehner: Return value of Database::getLog() is inconsistent -- always return an array, even when empty
