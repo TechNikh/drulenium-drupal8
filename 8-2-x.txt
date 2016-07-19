@@ -202,3 +202,4 @@ c572b92 Issue #2758067 by jhedstrom, pfrenssen: BrowserTestBase::drupalCreateUse
 faef09e Issue #2752533 by mikeker: \Drupal\Component\Utility\Crypt::randomBytesBase64 docblock refers to $byte_count instead of $count
 978b026 Issue #2752915 by mohit_aghera, davic, Haza, pashupathi nath gajawada, chr.fritsch, ifrik, webchick, j2r: Rename "Add page" to "Add search page"
 f94a4c2 Issue #2760557 by larowlan, jibran: LinkItem::getUrl ignores the value of options 2bb0468 Issue #2662284 by Wim Leers, swim, tedbow, dawehner: Return complete entity after successful PATCH 8db32d1 Issue #2333243 by kenorb, alexpott, ztl8702, 
+5356c84 Issue #2759859 by klausi: Implement getDrupalSettings() on BrowserTestBase for checking JS settings 8fb4440 Issue #2594917 by cilefen, mikeker, rakesh.gectcr, ccmorris, dawehener: Views field rewrite for "Content: Path" incorrectly escapes HT
