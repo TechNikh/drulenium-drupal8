@@ -153,3 +153,4 @@ f2bb548 Back to dev. 490f4b2 Update version constant. 5e60a27 Drupal 8.1.7 (SA-C
 984e284 Issue #2752533 by mikeker: \Drupal\Component\Utility\Crypt::randomBytesBase64 docblock refers to $byte_count instead of $count
 8a7eab2 Issue #2760557 by larowlan, jibran: LinkItem::getUrl ignores the value of options
 61301b5 Issue #2594917 by cilefen, mikeker, rakesh.gectcr, ccmorris, dawehener: Views field rewrite for "Content: Path" incorrectly escapes HTML a266f04 Issue #2755991 by klausi: Convert web tests to browser tests for telephone module
+54e08c9 Issue #2751835 by tstoeckler: Entity::urlRouteParameters() is broken for add-page and add-form link templates b5e2bf5 Issue #2759839 by jalpesh, Eric_A: Rename drupal/core-httpFoundation, add it to drupal/core replace section da9cb25 Issue #2
