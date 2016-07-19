@@ -200,3 +200,4 @@ c572b92 Issue #2758067 by jhedstrom, pfrenssen: BrowserTestBase::drupalCreateUse
 2fb3a05 Issue #2594937 by Peacog, cilefen, Sagar Ramgade, chgasparoto, aerozeppelin, iStryker, feraline, alvar0hurtad0, Cottser, Wim Leers, xjm, sebas5384, almaudoh, gvso, racarvalho1987: Empty 'libraries:' in theme .info.yml file produces confusing 
 17ff00c SA-CORE-2016-003 by alexpott, Michael Dowling, mlhess, xjm, Pere Orga, dawehner, greggles, coltrane, pwolanin, larowlan
 faef09e Issue #2752533 by mikeker: \Drupal\Component\Utility\Crypt::randomBytesBase64 docblock refers to $byte_count instead of $count
+978b026 Issue #2752915 by mohit_aghera, davic, Haza, pashupathi nath gajawada, chr.fritsch, ifrik, webchick, j2r: Rename "Add page" to "Add search page"
