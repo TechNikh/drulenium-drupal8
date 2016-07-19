@@ -199,3 +199,4 @@ fca71fa Revert "Issue #2560795 by mikeryan, phenaproxima, penyaskito, willwh, be
 c572b92 Issue #2758067 by jhedstrom, pfrenssen: BrowserTestBase::drupalCreateUser() should use UserCreationTrait::createUser()
 2fb3a05 Issue #2594937 by Peacog, cilefen, Sagar Ramgade, chgasparoto, aerozeppelin, iStryker, feraline, alvar0hurtad0, Cottser, Wim Leers, xjm, sebas5384, almaudoh, gvso, racarvalho1987: Empty 'libraries:' in theme .info.yml file produces confusing 
 17ff00c SA-CORE-2016-003 by alexpott, Michael Dowling, mlhess, xjm, Pere Orga, dawehner, greggles, coltrane, pwolanin, larowlan
+faef09e Issue #2752533 by mikeker: \Drupal\Component\Utility\Crypt::randomBytesBase64 docblock refers to $byte_count instead of $count
