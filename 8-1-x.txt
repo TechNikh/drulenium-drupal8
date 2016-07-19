@@ -152,3 +152,4 @@ e7a35bd Issue #1738622 by Mile23, Cottser, jhodgdon: Documentation cleanup for U
 f2bb548 Back to dev. 490f4b2 Update version constant. 5e60a27 Drupal 8.1.7 (SA-CORE-2016-003) by alexpott, Michael Dowling, mlhess, xjm, Pere Orga, dawehner, greggles, coltrane, pwolanin, larowlan
 984e284 Issue #2752533 by mikeker: \Drupal\Component\Utility\Crypt::randomBytesBase64 docblock refers to $byte_count instead of $count
 8a7eab2 Issue #2760557 by larowlan, jibran: LinkItem::getUrl ignores the value of options
+61301b5 Issue #2594917 by cilefen, mikeker, rakesh.gectcr, ccmorris, dawehener: Views field rewrite for "Content: Path" incorrectly escapes HTML a266f04 Issue #2755991 by klausi: Convert web tests to browser tests for telephone module
