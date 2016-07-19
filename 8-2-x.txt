@@ -210,3 +210,4 @@ b5b6b8f Issue #2756175 by Fabianx: FileCacheFactory::get() should not use 'defau
 1b1e221 Issue #2757475 by samuel.mortenson, marcoscano, Wim Leers: CKEditor's styling forces 16x16px icons, but Drupal's CKEditor toolbar configuration UI doesn't match that restriction, causing visual problems
 9268dcc Issue #2666382 by Wim Leers, alexpott, TwoD, timmillwood, catch: EditorFileReference filter: generate URLs for inline images
 88d101c Issue #2747083 by Eric_A, Mile23, alexpott: drupal/core-dependency-injection wrongly requires symfony/expression-language e74b8c6 Issue #2763629 by hussainweb: cckPluginManager not explicitly declared in CckMigration
+2c2cacc Issue #2223073 by stefan.r, superspring, Dave Reid, Jalandhar: Calling DatabaseSchema::getPrefixInfo() on a non-default connection returns the wrong database - write tests 2893aec Issue #2762953 by cilefen, gisle, drumm: Select elements shoul
