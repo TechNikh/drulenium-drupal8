@@ -217,3 +217,4 @@ f51a120 Issue #2752119 by jalpesh, mayurjadhav: drupal/core-render is missing fr
 b83e2d7 Issue #2706187 by Jo Fitzgerald: Custom view modes not migrating from d7 to d8 d317f6b Issue #2348137 by daffie: Enable WAL journal mode by default for SQLite database
 b9fc15d Issue #1806606 by daffie, Jorrit: Drupal\Core\Database\Query\Select::range() doesn't correctly implement SelectInterface 731a072 Issue #2768953 by alexpott, dawehner, cashwilliams, timmillwood: Prevent insecure Guzzle from being installed whe
 00d0fa7 Issue #2473179 by Fabianx, Berdir, dawehner: Use FileCache for config storage
+7bce285 Revert "Issue #2702661 by alexpott, nevergone, GoZ, jibran, dawehner, hgoto, xjm: Make it simple to take screenshots whilst using JavascriptTestBase" e42f6c5 Issue #2702661 by alexpott, nevergone, GoZ, jibran, dawehner, hgoto, xjm: Make it si
