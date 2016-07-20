@@ -160,3 +160,4 @@ f2bb548 Back to dev. 490f4b2 Update version constant. 5e60a27 Drupal 8.1.7 (SA-C
 ff3b3e8 Issue #2747083 by Eric_A, Mile23, alexpott: drupal/core-dependency-injection wrongly requires symfony/expression-language 3cf0bf7 Issue #2763629 by hussainweb: cckPluginManager not explicitly declared in CckMigration 613a15e Issue #2477381 by
 8bf7d7c Issue #2223073 by stefan.r, superspring, Dave Reid, Jalandhar: Calling DatabaseSchema::getPrefixInfo() on a non-default connection returns the wrong database - write tests 2280ea7 Issue #2762953 by cilefen, gisle, drumm: Select elements shoul
 69836b2 Issue #2753791 by Lendude: Add javascript testing for the Views listing page
+52c2985 Revert "Issue #2223073 by stefan.r, superspring, Dave Reid, Jalandhar: Calling DatabaseSchema::getPrefixInfo() on a non-default connection returns the wrong database - write tests"
