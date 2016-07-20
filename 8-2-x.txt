@@ -216,3 +216,4 @@ b5b6b8f Issue #2756175 by Fabianx: FileCacheFactory::get() should not use 'defau
 f51a120 Issue #2752119 by jalpesh, mayurjadhav: drupal/core-render is missing from the drupal/core replace section
 b83e2d7 Issue #2706187 by Jo Fitzgerald: Custom view modes not migrating from d7 to d8 d317f6b Issue #2348137 by daffie: Enable WAL journal mode by default for SQLite database
 b9fc15d Issue #1806606 by daffie, Jorrit: Drupal\Core\Database\Query\Select::range() doesn't correctly implement SelectInterface 731a072 Issue #2768953 by alexpott, dawehner, cashwilliams, timmillwood: Prevent insecure Guzzle from being installed whe
+00d0fa7 Issue #2473179 by Fabianx, Berdir, dawehner: Use FileCache for config storage
