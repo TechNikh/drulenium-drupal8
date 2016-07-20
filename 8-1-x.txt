@@ -165,3 +165,4 @@ e2e3145 Issue #2752119 by jalpesh, mayurjadhav: drupal/core-render is missing fr
 b707316 Issue #2768953 by alexpott, dawehner, cashwilliams, timmillwood: Prevent insecure Guzzle from being installed when using composer to manager your project dependencies 71300b5 Issue #2765207 by juampynr, dawehner: Convert \Drupal\system\Tests\
 cc9f4c1 Issue #1806606 by daffie, Jorrit: Drupal\Core\Database\Query\Select::range() doesn't correctly implement SelectInterface
 af4ce92 Issue #2702661 by alexpott, nevergone, GoZ, jibran, dawehner, hgoto, xjm: Make it simple to take screenshots whilst using JavascriptTestBase
+9986e5e Revert "Issue #2702661 by alexpott, nevergone, GoZ, jibran, dawehner, hgoto, xjm: Make it simple to take screenshots whilst using JavascriptTestBase"
