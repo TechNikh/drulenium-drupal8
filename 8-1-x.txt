@@ -162,3 +162,4 @@ ff3b3e8 Issue #2747083 by Eric_A, Mile23, alexpott: drupal/core-dependency-injec
 69836b2 Issue #2753791 by Lendude: Add javascript testing for the Views listing page
 52c2985 Revert "Issue #2223073 by stefan.r, superspring, Dave Reid, Jalandhar: Calling DatabaseSchema::getPrefixInfo() on a non-default connection returns the wrong database - write tests"
 e2e3145 Issue #2752119 by jalpesh, mayurjadhav: drupal/core-render is missing from the drupal/core replace section
+b707316 Issue #2768953 by alexpott, dawehner, cashwilliams, timmillwood: Prevent insecure Guzzle from being installed when using composer to manager your project dependencies 71300b5 Issue #2765207 by juampynr, dawehner: Convert \Drupal\system\Tests\
