@@ -27,7 +27,7 @@ before_script:
   #- export DISPLAY=:99.0
   #- sh -e /etc/init.d/xvfb start
   - sudo apt-get update -q
-  - sudo apt-get install -y imagemagick
+  - sudo apt-get install -y imagemagick postfix
   - printf "\n" | pecl install imagick
   # configure mysql
   # try to avoid mysql has gone away errors
@@ -46,19 +46,20 @@ script:
   - "export TRAVIS_COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
   - echo "$TRAVIS_COMMIT_MSG"
   - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
-  - drush site-install testing --db-url=$DB_URL --site-name=my-site --yes
-  - drush dl drulenium-7.x-2.x-dev -y
-  - drush en drulenium -y
-  - drush en drulenium_tests -y
-  - drush en libraries -y
+  # https://www.drupal.org/node/1488650#comment-6741902
+  - drush site-install testing install_configure_form.update_status_module='array(FALSE,FALSE)' --db-url=$DB_URL --site-name=my-site --yes
+  - drush dl drulenium -y
+  - drush en drulenium drulenium_local_selenium -y
+  #- drush en drulenium_tests -y
+  #- drush en libraries -y
   - drush vr-download-webdriver # To download selenium webdriver library
-  - drush vset --yes drulenium_vr_config_server_opt 'local'
+  - drush vset --yes drulenium_vr_config_server_opt 'drulenium_local_selenium'
   - drush vset --yes drulenium_vr_config_image_server_opt 'local'
   - drush vset --yes drulenium_vr_release_imagemagick_path '/usr/bin'
   - drush vset --yes drulenium_vr_release_notify_email 'bot@technikh.com'
   # Test as admin user
-  - drush vset --yes drulenium_vr_release_user_name 'admin'
-  - drush vset --yes drulenium_vr_release_user_pass $DRUPAL8_ADMIN_PASS
+  - drush vset --yes drulenium_vr_release_user_name 'admin' -q
+  - drush vset --yes drulenium_vr_release_user_pass $DRUPAL8_ADMIN_PASS -q
 
   # http://drulenium.org/api/v1/project/7abf5430-7a80-46d1-8adc-e56e6ecb8947
   - export TEST_PAGES=$(echo `curl -s http://drulenium.org/api/v1/project/$PROJECT_UUID | jq -r '.tests | join(",")'`)
@@ -73,10 +74,11 @@ script:
   - drush vrc http://8-2-x-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
   - drush vrc http://8-2-x-arch-drulenium-drupal8.pantheonsite.io/ "$TRAVIS_COMMIT_MSG" --preset_category=travis-regression
   - drush vr-diff --preset_category=travis-regression
-  - drush dl drulenium_imgur-7.x-1.x-dev
+  - drush dl drulenium_imgur
   - drush en drulenium_imgur -y
-  - drush vset --yes drulenium_imgur_client_id $IMGUR_CLIENT_ID
-  - drush vset --yes drulenium_imgur_client_secret $IMGUR_CLIENT_SECRET
+  - drush imgur-download-client -y
+  - drush vset --yes drulenium_imgur_client_id $IMGUR_CLIENT_ID -q
+  - drush vset --yes drulenium_imgur_client_secret $IMGUR_CLIENT_SECRET -q
   - drush vr-diff-upload --preset_category=travis-regression --project_id=$PROJECT_UUID
 branches:
     except:
