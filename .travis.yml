@@ -48,12 +48,14 @@ script:
   - DB_URL=mysql://$DB_USERNAME@127.0.0.1/$DATABASE
   # https://www.drupal.org/node/1488650#comment-6741902
   - drush site-install testing install_configure_form.update_status_module='array(FALSE,FALSE)' --db-url=$DB_URL --site-name=my-site --yes
-  - drush dl drulenium -y
+  - drush dl drulenium-7.x-2.x-dev -y
   - drush en drulenium drulenium_local_selenium -y
   #- drush en drulenium_tests -y
   #- drush en libraries -y
   - drush vr-download-webdriver # To download selenium webdriver library
   - drush vset --yes drulenium_vr_config_server_opt 'drulenium_local_selenium'
+  - drush vset --yes drulenium_vr_release_selenium_browser_width '1280'
+  - drush vset --yes drulenium_vr_release_selenium_browser_height '1024'
   - drush vset --yes drulenium_vr_config_image_server_opt 'local'
   - drush vset --yes drulenium_vr_release_imagemagick_path '/usr/bin'
   - drush vset --yes drulenium_vr_release_notify_email 'bot@technikh.com'
