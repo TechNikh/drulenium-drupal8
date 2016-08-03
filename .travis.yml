@@ -54,7 +54,8 @@ script:
   #- drush en libraries -y
   - drush vr-download-webdriver # To download selenium webdriver library
   - drush vset --yes drulenium_vr_config_server_opt 'drulenium_local_selenium'
-  - drush vset --yes drulenium_vr_release_selenium_browser_width '1280'
+  # Desktop width breaks pages like http://8-2-x-drulenium-drupal8.pantheonsite.io/admin/config/search/path/add excluding URL
+  - drush vset --yes drulenium_vr_release_selenium_browser_width '768'
   - drush vset --yes drulenium_vr_release_selenium_browser_height '1024'
   - drush vset --yes drulenium_vr_config_image_server_opt 'local'
   - drush vset --yes drulenium_vr_release_imagemagick_path '/usr/bin'
